@@ -1,5 +1,5 @@
 export default function Home() {
   return (
-    <h1>Coming Soon...</h1>
+    <h1 className="text-slate-200 text-3xl">Home...</h1>
   );
 }
