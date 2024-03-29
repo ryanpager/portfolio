@@ -41,12 +41,9 @@ export default function Navigation() {
       'pl-5',
       'cursor-pointer',
       'text-slate-500',
+      'border-l-2',
+      'border-purple-700',
       // Hover State & Transitions
-      'hover:pl-6',
-      'hover:text-slate-800',
-      'hover:border-l-8',
-      'hover:border-pink-500',
-      'hover:font-semibold',
       'transition-all'
     ]
 
@@ -56,10 +53,16 @@ export default function Navigation() {
         'border-pink-500',
         'hover:border-l-8',
         'font-semibold',
-        'border-l-8'
+        'border-l-8',
       ])
     } else {
-      classList = classList.concat(['border-l-2', 'border-purple-700',])
+      classList = classList.concat([
+        'hover:pl-5',
+        'hover:text-slate-800',
+        'hover:border-l-8',
+        'hover:border-pink-500',
+        'hover:font-semibold',
+      ])
     }
 
     return classList.join(' ')
