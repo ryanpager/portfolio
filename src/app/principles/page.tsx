@@ -6,7 +6,7 @@ export default function Principles() {
       {/* Section Header */}
       <div className="flex-col text-center">
         <h1 className="text-4xl text-slate-800 font-bold">Development Principles</h1>
-        <p className="mx-auto text-sm text-slate-500 max-w-prose text-justify leading-8 mt-4">
+        <p className="mx-auto text-sm text-slate-500 max-w-prose text-center leading-8 mt-4">
           Rooted in 15+ years of industry experience and best practices, these principles serve as the 
           cornerstone of my software development career and how I approach even those most basic projects.
         </p>
