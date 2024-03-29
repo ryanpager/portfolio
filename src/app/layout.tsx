@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import "@/styles/globals.css";
 // Components
-import Navigation from '@/components/navigation'
+import Navigation from '@/components/navigation';
 
 const fontFamily = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${fontFamily.className} bg-white`}>
-        <div className="mx-auto max-w-screen-2xl px-16 pt-24">
+        <div className="mx-auto max-w-screen-2xl px-16 py-24">
           <div className="flex space-x-4">
             <div className="flex-none w-1/4">
               <Navigation />

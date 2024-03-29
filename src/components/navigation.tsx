@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link';
 import { 
   MapPinIcon,
   EnvelopeIcon,
@@ -16,7 +17,7 @@ export default function Navigation() {
       'py-1',
       'pl-5',
       'border-l-2',
-      'border-indigo-500',
+      'border-purple-700',
       'cursor-pointer',
       'text-slate-500',
       // transitions
@@ -30,14 +31,14 @@ export default function Navigation() {
   }
 
   return (
-    <div className="flex flex-col space-y-8 text-slate-500">
+    <div className="flex flex-col space-y-8 text-slate-500 fixed top-24">
       {/* Profile Image */}
       <Image
         src="/profile-picture.jpeg"
         alt="Ryan and Ollie on the beach"
-        className="rounded-xl shadow-2xl shadow-slate-500/50"
-        width={240}
-        height={240}
+        className="rounded-lg"
+        width={160}
+        height={160}
         priority
       />
       {/* Name & Tag Line */}
@@ -49,7 +50,7 @@ export default function Navigation() {
       <div className="flex-col space-y-4 text-xs">
         <div className="flex items-start space-x-2">
           <div className="flex-none">
-            <MapPinIcon className="h-4 w-4 text-indigo-500" />
+            <MapPinIcon className="h-4 w-4 text-purple-700" />
           </div>
           <div className="flex-auto">
             <p>Dallas-Fort Worth, Texas</p>
@@ -58,13 +59,13 @@ export default function Navigation() {
         </div>
         <div className="flex items-start space-x-2">
           <div className="flex-none">
-            <EnvelopeIcon className="h-4 w-4 text-indigo-500" />
+            <EnvelopeIcon className="h-4 w-4 text-purple-700" />
           </div>
           <div className="flex-auto">ryan@otternaut.com</div>
         </div>
         <div className="flex items-start space-x-2">
           <div className="flex-none">
-            <PhoneIcon className="h-4 w-4 text-indigo-500" />
+            <PhoneIcon className="h-4 w-4 text-purple-700" />
           </div>
           <div className="flex-auto">(469) 404-7483</div>
         </div>
@@ -73,7 +74,7 @@ export default function Navigation() {
             <Image
               src="/github-mark.svg"
               alt="Github"
-              className="text-indigo-500"
+              className="text-purple-700"
               width={16}
               height={16}
               priority
@@ -98,24 +99,24 @@ export default function Navigation() {
         </div>
         {/* Anchors & Links */}
         <div className="flex-col space-y-4 pt-4">
-          <div className={navigation.className}>
+          <Link className={navigation.className} href="/">
             <p>My Story</p>
-          </div>
-          <div className={navigation.className}>
-            <p>My Development Philosophy</p>
-          </div>
-          <div className={navigation.className}>
-            <p>What I'm Up Currently To</p>
-          </div>
-          <div className={navigation.className}>
+          </Link>
+          <Link className={navigation.className} href="/projects">
+            <p>What I'm Currently Up To</p>
+          </Link>
+          <Link className={navigation.className} href="/philosophy">
+            <p>My Philosophy</p>
+          </Link>
+          <Link className={navigation.className} href="/proficiencies">
             <p>Skills & Proficiencies</p>
-          </div>
-          <div className={navigation.className}>
+          </Link>
+          <Link className={navigation.className} href="/publications">
             <p>Publications</p>
-          </div>
-          <div className={navigation.className}>
+          </Link>
+          <Link className={navigation.className} href="/case-studies">
             <p>Case Studies</p>
-          </div>
+          </Link>
         </div>
       </div>
     </div>

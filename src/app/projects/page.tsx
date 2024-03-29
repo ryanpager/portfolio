@@ -1,5 +1,5 @@
 export default function Projects() {
   return (
-    <h1 className="text-slate-200 text-3xl">About Me...</h1>
+    <h1 className="text-slate-200 text-3xl">Projects...</h1>
   );
 }
