@@ -7,9 +7,73 @@ export default function Principles() {
       <div className="flex-col text-center">
         <h1 className="text-4xl text-slate-800 font-bold">Development Principles</h1>
         <p className="mx-auto text-sm text-slate-500 max-w-prose text-justify leading-8 mt-4">
-          Rooted in decades of industry experience and best practices, these principles serve as the 
+          Rooted in 15+ years of industry experience and best practices, these principles serve as the 
           cornerstone of my software development career and how I approach even those most basic projects.
         </p>
+      </div>
+
+      {/* Divider */}
+      <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
+
+      {/* Section - Quality Obsessed */}
+      <div className="flex items-start space-x-16">
+        <Image
+          src="/illustrations/quality-obsessed.svg"
+          alt="Obsessed with quality to a fault."
+          className="flex-none"
+          width={320}
+          height={320}
+          priority
+        />
+        <div className="flex-auto space-y-8 -mt-2">
+          <h3 className="font-semibold text-2xl text-slate-600">Obsessed with Quality to a Fault</h3>
+          <p className="text-justify text-sm text-slate-500 font-light leading-8">
+            In the realm of software architecture, mediocrity is not an option. Embracing
+            a mindset of relentless pursuit of perfection, where every architectural decision
+            is meticulously crafted to withstand the test of time. From microservices to monoliths,
+            my obsession with architectural excellence will lay the foundation for robust,
+            scalable, and resilient systems that stand the test of time.
+          </p>
+          <p className="text-justify text-sm text-slate-500 font-light leading-8">
+            Design is not just about aesthetics—it's about creating intuitive, elegant solutions that 
+            delight users and stand the test of time. I manifest my obsession with design perfection 
+            into every pixel, every interaction, and every user journey. With an unwavering focus 
+            on user experience and interface design, I love to elevate creations from mere 
+            applications to works of art that inspire and captivate.
+          </p>
+        </div>
+      </div>
+
+      {/* Divider */}
+      <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
+
+      {/* Section - Never Give Up */}
+      <div className="flex items-start space-x-16">
+        <div className="flex-auto space-y-8 -mt-2">
+          <h3 className="font-semibold text-2xl text-slate-600">Never Give Up, Never Surrender</h3>
+          <p className="text-justify text-sm text-slate-500 font-light leading-8">
+            In the world of software development, challenges abound and obstacles loom large—
+            but true success belongs to those who never surrender to adversity. Perseverance is everything. 
+            No matter how daunting the task, no matter how insurmountable the odds, I refuse to back down. 
+            Instead, I embrace each setback as an opportunity for growth, each failure as a 
+            lesson in disguise.
+          </p>
+          <p className="text-justify text-sm text-slate-500 font-light leading-8">
+            Mistakes are not roadblocks; they are stepping stones on the path to greatness. 
+            With each setback, I gain invaluable insight, honing my skills and refining 
+            my approach to solving the problem at hand. Whether it's a bug in the code, a 
+            flaw in the architecture, or a performance degredation, I welcome each challenge 
+            as a chance to learn, adapt, and evolve.
+          </p>
+        </div>
+        <Image
+          src="/illustrations/never-give-up.svg"
+          alt="No problem is too difficult, and I will never give up."
+          className="flex-none"
+          width={320}
+          height={320}
+          priority
+        />
       </div>
 
       {/* Divider */}
@@ -44,42 +108,27 @@ export default function Principles() {
       </div>
 
       {/* Divider */}
-      <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
-
-      {/* Section - Quality Obsessed */}
-      <div className="flex items-start space-x-16">
-        <div className="flex-auto space-y-8 -mt-2">
-          <h3 className="font-semibold text-2xl text-slate-700">Obsessed with Quality to a Fault</h3>
-          <p className="text-justify text-sm text-slate-600 font-light leading-8">
-            In the realm of software architecture, mediocrity is not an option. Embracing
-            a mindset of relentless pursuit of perfection, where every architectural decision
-            is meticulously crafted to withstand the test of time. From microservices to monoliths,
-            my obsession with architectural excellence will lay the foundation for robust,
-            scalable, and resilient systems that stand the test of time.
-          </p>
-          <p className="text-justify text-sm text-slate-600 font-light leading-8">
-            Design is not just about aesthetics—it's about creating intuitive, elegant solutions that 
-            delight users and stand the test of time. I manifest my obsession with design perfection 
-            into every pixel, every interaction, and every user journey. With an unwavering focus 
-            on user experience and interface design, I love to elevate creations from mere 
-            applications to works of art that inspire and captivate.
-          </p>
-        </div>
-        <Image
-          src="/illustrations/quality-obsessed.svg"
-          alt="Obsessed with quality to a fault."
-          className="flex-none"
-          width={320}
-          height={320}
-          priority
-        />
-      </div>
-
-      {/* Divider */}
       <div className="bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Section - Teamwork */}
       <div className="flex items-start space-x-16">
+        <div className="flex-auto space-y-8 -mt-2">
+          <h3 className="font-semibold text-2xl text-slate-600">Teamwork Makes the Dream Work</h3>
+          <p className="text-justify text-sm text-slate-500 font-light leading-8">
+            In a collaborative environment, ideas flow freely, sparking innovation at every turn. 
+            Leveraging the creativity and ingenuity of your teammates to push the boundaries of what's 
+            possible, brainstorming solutions, and iterating on concepts until you've uncovered the 
+            perfect solution. With each team member contributing their unique perspective, you'll 
+            unearth innovative solutions that elevate your projects to new heights.
+          </p>
+          <p className="text-justify text-sm text-slate-500 font-light leading-8">
+            In the fast-paced world of software development, staying ahead of the curve is essential. 
+            In a team environment, feedback is abundant, providing you with valuable insights and 
+            opportunities for growth. Whether it's code reviews, peer mentoring, or knowledge-sharing 
+            sessions, you'll have access to a wealth of resources to help you refine your skills, 
+            expand your horizons, and become the best developer you can be.
+          </p>
+        </div>
         <Image
           src="/illustrations/teamwork-makes-the-dream-work.svg"
           alt="Working solo is great for some, but the real magic happens in teams."
@@ -88,56 +137,7 @@ export default function Principles() {
           height={320}
           priority
         />
-        <div className="flex-auto space-y-8 -mt-2">
-          <h3 className="font-semibold text-2xl text-slate-700">Teamwork Makes the Dream Work</h3>
-          <p className="text-justify text-sm text-slate-600 font-light leading-8">
-            In a collaborative environment, ideas flow freely, sparking innovation at every turn. 
-            Leveraging the creativity and ingenuity of your teammates to push the boundaries of what's 
-            possible, brainstorming solutions, and iterating on concepts until you've uncovered the 
-            perfect solution. With each team member contributing their unique perspective, you'll 
-            unearth innovative solutions that elevate your projects to new heights.
-          </p>
-          <p className="text-justify text-sm text-slate-600 font-light leading-8">
-            In the fast-paced world of software development, staying ahead of the curve is essential. 
-            In a team environment, feedback is abundant, providing you with valuable insights and 
-            opportunities for growth. Whether it's code reviews, peer mentoring, or knowledge-sharing 
-            sessions, you'll have access to a wealth of resources to help you refine your skills, 
-            expand your horizons, and become the best developer you can be.
-          </p>
-        </div>
-      </div>
-
-      {/* Divider */}
-      <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
-
-      {/* Section - Never Give Up */}
-      <div className="flex items-start space-x-16">
-        <div className="flex-auto space-y-8 -mt-2">
-          <h3 className="font-semibold text-2xl text-slate-700">Never Give Up, Never Surrender</h3>
-          <p className="text-justify text-sm text-slate-600 font-light leading-8">
-            In the world of software development, challenges abound and obstacles loom large—
-            but true success belongs to those who never surrender to adversity. Perseverance is everything. 
-            No matter how daunting the task, no matter how insurmountable the odds, I refuse to back down. 
-            Instead, I embrace each setback as an opportunity for growth, each failure as a 
-            lesson in disguise.
-          </p>
-          <p className="text-justify text-sm text-slate-600 font-light leading-8">
-            Mistakes are not roadblocks; they are stepping stones on the path to greatness. 
-            With each setback, I gain invaluable insight, honing my skills and refining 
-            my approach to solving the problem at hand. Whether it's a bug in the code, a 
-            flaw in the architecture, or a performance degredation, I welcome each challenge 
-            as a chance to learn, adapt, and evolve.
-          </p>
-        </div>
-        <Image
-          src="/illustrations/never-give-up.svg"
-          alt="No problem is too difficult, and I will never give up."
-          className="flex-none"
-          width={320}
-          height={320}
-          priority
-        />
-      </div>
+      </div>      
     </div>
   );
 }
