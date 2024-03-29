@@ -81,7 +81,7 @@ export default function Navigation() {
         <p className="font-medium text-xs">Turning coffee into code, one day at a time.</p>
       </div>
       {/* Contact Information */}
-      <div className="flex-col space-y-4 text-xs">
+      <div className="flex-col space-y-6 text-xs">
         <div className="flex items-start space-x-2">
           <div className="flex-none">
             <MapPinIcon className="h-4 w-4 text-purple-700" />
@@ -110,14 +110,14 @@ export default function Navigation() {
           </div>
           <div className="flex-auto">
             <a 
-              className="hover:text-indigo-500 font-semibold transition-all"
+              className="hover:text-slate-800 hover:font-semibold transition-all"
               href="https://github.com/ryanpager" 
               target="_blank"
             >
               <p>https://github.com/ryanpager</p>
             </a>
             <a
-              className="hover:text-indigo-500 font-semibold transition-all"
+              className="hover:text-slate-800 hover:font-semibold transition-all"
               href="https://github.com/otternaut-labs"
               target="_blank"
             >
