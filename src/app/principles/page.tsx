@@ -2,7 +2,19 @@ import Image from "next/image";
 
 export default function Principles() {
   return (
-    <div className="flex-col space-y-24">
+    <div className="flex-col space-y-28">
+      {/* Section Header */}
+      <div className="flex-col text-center">
+        <h1 className="text-4xl text-slate-800 font-bold">Development Principles</h1>
+        <p className="mx-auto text-sm text-slate-500 max-w-prose text-justify leading-8 mt-4">
+          Rooted in decades of industry experience and best practices, these principles serve as the 
+          cornerstone of my software development career and how I approach even those most basic projects.
+        </p>
+      </div>
+
+      {/* Divider */}
+      <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
+
       {/* Section - Teaching & Learning */}
       <div className="flex items-start space-x-16">
         <Image
@@ -14,14 +26,14 @@ export default function Principles() {
           priority
         />
         <div className="flex-auto space-y-8 -mt-2">
-          <h3 className="font-semibold text-2xl text-slate-700">Knowledge is Power</h3>
-          <p className="text-justify text-sm text-slate-600 font-light leading-8">
+          <h3 className="font-semibold text-2xl text-slate-600">Knowledge is Power</h3>
+          <p className="text-justify text-sm text-slate-500 font-light leading-8">
             Every project presents a unique puzzle to solve, a chance to expand your knowledge horizons. 
             Whether you're delving into unfamiliar territories or mastering advanced techniques, each line 
             of code is a step closer to expertise. Seize the opportunity to explore cutting-edge technologies, 
             refine your skills, and elevate your craft with every project you tackle.
           </p>
-          <p className="text-justify text-sm text-slate-600 font-light leading-8">
+          <p className="text-justify text-sm text-slate-500 font-light leading-8">
             In the world of programming, knowledge-sharing is key to collective advancement.
             Every project offers a platform to mentor, guide, and inspire fellow developers. 
             Whether it's through code reviews, pair programming sessions, or open-source contributions, 
@@ -30,6 +42,9 @@ export default function Principles() {
           </p>
         </div>
       </div>
+
+      {/* Divider */}
+      <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Section - Quality Obsessed */}
       <div className="flex items-start space-x-16">
@@ -60,6 +75,9 @@ export default function Principles() {
         />
       </div>
 
+      {/* Divider */}
+      <div className="bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
+
       {/* Section - Teamwork */}
       <div className="flex items-start space-x-16">
         <Image
@@ -87,6 +105,38 @@ export default function Principles() {
             expand your horizons, and become the best developer you can be.
           </p>
         </div>
+      </div>
+
+      {/* Divider */}
+      <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
+
+      {/* Section - Never Give Up */}
+      <div className="flex items-start space-x-16">
+        <div className="flex-auto space-y-8 -mt-2">
+          <h3 className="font-semibold text-2xl text-slate-700">Never Give Up, Never Surrender</h3>
+          <p className="text-justify text-sm text-slate-600 font-light leading-8">
+            In the world of software development, challenges abound and obstacles loom large—
+            but true success belongs to those who never surrender to adversity. Perseverance is everything. 
+            No matter how daunting the task, no matter how insurmountable the odds, I refuse to back down. 
+            Instead, I embrace each setback as an opportunity for growth, each failure as a 
+            lesson in disguise.
+          </p>
+          <p className="text-justify text-sm text-slate-600 font-light leading-8">
+            Mistakes are not roadblocks; they are stepping stones on the path to greatness. 
+            With each setback, I gain invaluable insight, honing my skills and refining 
+            my approach to solving the problem at hand. Whether it's a bug in the code, a 
+            flaw in the architecture, or a performance degredation, I welcome each challenge 
+            as a chance to learn, adapt, and evolve.
+          </p>
+        </div>
+        <Image
+          src="/illustrations/never-give-up.svg"
+          alt="No problem is too difficult, and I will never give up."
+          className="flex-none"
+          width={320}
+          height={320}
+          priority
+        />
       </div>
     </div>
   );
