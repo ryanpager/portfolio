@@ -12,7 +12,7 @@ import { MapPinIcon, EnvelopeIcon } from '@heroicons/react/24/solid';
 enum URL {
   AboutMe = '/',
   CaseStudies = '/case-studies',
-  Principles = '/philosophy',
+  Principles = '/principles',
   Proficiencies = '/proficiencies',
   Projects = '/projects',
   Publications = '/publications'
@@ -45,8 +45,8 @@ export default function Navigation() {
 
     if (path === pathname) {
       classList = classList.concat([
-        'text-purple-700',
-        'border-pink-500',
+        'text-rose-500',
+        'border-rose-500',
         'hover:border-l-8',
         'font-semibold',
         'border-l-8',
@@ -56,7 +56,7 @@ export default function Navigation() {
         'hover:pl-5',
         'hover:text-slate-800',
         'hover:border-l-8',
-        'hover:border-pink-500',
+        'hover:border-rose-500',
         'hover:font-semibold',
       ])
     }
