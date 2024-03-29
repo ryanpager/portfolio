@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Philosophy() {
+export default function Principles() {
   return (
     <div className="flex-col space-y-24">
       {/* Section - Teaching & Learning */}

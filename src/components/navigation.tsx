@@ -12,7 +12,7 @@ import { MapPinIcon, EnvelopeIcon } from '@heroicons/react/24/solid';
 enum URL {
   AboutMe = '/',
   CaseStudies = '/case-studies',
-  Philosophy = '/philosophy',
+  Principles = '/philosophy',
   Proficiencies = '/proficiencies',
   Projects = '/projects',
   Publications = '/publications'
@@ -128,13 +128,13 @@ export default function Navigation() {
         {/* Anchors & Links */}
         <div className="flex-col space-y-4 pt-4">
           <Link className={getNavigationClasses(URL.AboutMe)} href={URL.AboutMe}>
-            <p>My Story</p>
+            <p>A Little Bit About Me</p>
           </Link>
           <Link className={getNavigationClasses(URL.Projects)} href={URL.Projects}>
-            <p>What I'm Currently Up To</p>
+            <p>What I'm Working On</p>
           </Link>
-          <Link className={getNavigationClasses(URL.Philosophy)} href={URL.Philosophy}>
-            <p>My Philosophy</p>
+          <Link className={getNavigationClasses(URL.Principles)} href={URL.Principles}>
+            <p>Development Principles</p>
           </Link>
           <Link className={getNavigationClasses(URL.Proficiencies)} href={URL.Proficiencies}>
             <p>Skills & Proficiencies</p>
