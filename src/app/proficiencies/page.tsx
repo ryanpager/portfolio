@@ -30,7 +30,7 @@ export default function Proficiencies() {
           mobile, web and desktop.
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-3 gap-8">
         <ProficiencyCard icon="elixir" skillLevel={9} />
         <ProficiencyCard icon="rust" skillLevel={6} />
         <ProficiencyCard icon="go" skillLevel={6} />
@@ -59,7 +59,7 @@ export default function Proficiencies() {
           is used on a very frequent basis among many projects.
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-3 gap-8">
         <ProficiencyCard icon="amazon web services" skillLevel={6} />
         <ProficiencyCard icon="google cloud" skillLevel={6} />
         <ProficiencyCard icon="azure" skillLevel={6} />
@@ -85,7 +85,7 @@ export default function Proficiencies() {
           basis.
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-3 gap-8">
         <ProficiencyCard icon="phoenix" skillLevel={10} />
         <ProficiencyCard icon="rails" skillLevel={7} />
         <ProficiencyCard icon="django" skillLevel={6} />
@@ -117,10 +117,10 @@ export default function Proficiencies() {
           tools &mdash; so I go with what fits best.
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-8">
-        <ProficiencyCard icon="jira" skillLevel={10} />
+      <div className="grid md:grid-cols-3 gap-8">
+        <ProficiencyCard icon="jira" skillLevel={8} />
         <ProficiencyCard icon="trello" skillLevel={10} />
-        <ProficiencyCard icon="notion" skillLevel={10} />
+        <ProficiencyCard icon="notion" skillLevel={7} />
       </div>
     </div>
   );
