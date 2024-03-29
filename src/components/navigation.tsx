@@ -1,33 +1,68 @@
+'use client';
+
+import { usePathname } from 'next/navigation';
 import Image from "next/image";
 import Link from 'next/link';
 import { 
   MapPinIcon,
   EnvelopeIcon,
-  PhoneIcon,
-  CodeBracketIcon
+  PhoneIcon
 } from '@heroicons/react/24/solid'
 
+// Since it would be terrible to pass around strings for
+// things that could change, we want to go ahead and map
+// out the navigation pages so that we can reference them
+// as expected.
+enum URL {
+  AboutMe = '/',
+  CaseStudies = '/case-studies',
+  Philosophy = '/philosophy',
+  Proficiencies = '/proficiencies',
+  Projects = '/projects',
+  Publications = '/publications'
+}
+
 export default function Navigation() {
-  // Set the default styles for the navigation options
-  // in the sidebar. This will apply transitions and more.
-  let navigation = {
-    className: [
+  const pathname = usePathname()
+
+  /**
+   * Return the current navigation state classes based on which
+   * path is active, and which ones are not.
+   *
+   * @param 
+   * @returns classList - a list of classes representing the current
+   *                      state of the navigation.
+   */
+  function getNavigationClasses(path: URL): string {
+    let classList: Array<string> = [
       'flex',
       'space-x-2',
       'py-1',
       'pl-5',
-      'border-l-2',
-      'border-purple-700',
       'cursor-pointer',
       'text-slate-500',
-      // transitions
+      // Hover State & Transitions
       'hover:pl-6',
       'hover:text-slate-800',
       'hover:border-l-8',
       'hover:border-pink-500',
       'hover:font-semibold',
-      'transition-all',
-    ].join(' ')
+      'transition-all'
+    ]
+
+    if (path === pathname) {
+      classList = classList.concat([
+        'text-purple-700',
+        'border-pink-500',
+        'hover:border-l-8',
+        'font-semibold',
+        'border-l-8'
+      ])
+    } else {
+      classList = classList.concat(['border-l-2', 'border-purple-700',])
+    }
+
+    return classList.join(' ')
   }
 
   return (
@@ -99,22 +134,22 @@ export default function Navigation() {
         </div>
         {/* Anchors & Links */}
         <div className="flex-col space-y-4 pt-4">
-          <Link className={navigation.className} href="/">
+          <Link className={getNavigationClasses(URL.AboutMe)} href={URL.AboutMe}>
             <p>My Story</p>
           </Link>
-          <Link className={navigation.className} href="/projects">
+          <Link className={getNavigationClasses(URL.Projects)} href={URL.Projects}>
             <p>What I'm Currently Up To</p>
           </Link>
-          <Link className={navigation.className} href="/philosophy">
+          <Link className={getNavigationClasses(URL.Philosophy)} href={URL.Philosophy}>
             <p>My Philosophy</p>
           </Link>
-          <Link className={navigation.className} href="/proficiencies">
+          <Link className={getNavigationClasses(URL.Proficiencies)} href={URL.Proficiencies}>
             <p>Skills & Proficiencies</p>
           </Link>
-          <Link className={navigation.className} href="/publications">
+          <Link className={getNavigationClasses(URL.Publications)} href={URL.Publications}>
             <p>Publications</p>
           </Link>
-          <Link className={navigation.className} href="/case-studies">
+          <Link className={getNavigationClasses(URL.CaseStudies)} href={URL.CaseStudies}>
             <p>Case Studies</p>
           </Link>
         </div>
