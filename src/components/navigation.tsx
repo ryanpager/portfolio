@@ -3,11 +3,7 @@
 import { usePathname } from 'next/navigation';
 import Image from "next/image";
 import Link from 'next/link';
-import { 
-  MapPinIcon,
-  EnvelopeIcon,
-  PhoneIcon
-} from '@heroicons/react/24/solid'
+import { MapPinIcon, EnvelopeIcon } from '@heroicons/react/24/solid';
 
 // Since it would be terrible to pass around strings for
 // things that could change, we want to go ahead and map
@@ -100,12 +96,6 @@ export default function Navigation() {
             <EnvelopeIcon className="h-4 w-4 text-purple-700" />
           </div>
           <div className="flex-auto">ryan@otternaut.com</div>
-        </div>
-        <div className="flex items-start space-x-2">
-          <div className="flex-none">
-            <PhoneIcon className="h-4 w-4 text-purple-700" />
-          </div>
-          <div className="flex-auto">(469) 404-7483</div>
         </div>
         <div className="flex items-start space-x-2">
           <div className="flex-none">
