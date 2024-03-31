@@ -145,8 +145,8 @@ export default function Navigation() {
           <Link className={getNavigationClasses(URL.Proficiencies)} href={URL.Proficiencies}>
             <p>Skills & Proficiencies</p>
           </Link>
-          <p className="pl-6">Case Studies</p>
-          <div className="pl-6 flex-col space-y-4">
+          <p className="pl-6 font-semibold text-slate-300">Case Studies</p>
+          <div className="flex-col space-y-4">
             <Link className={getNavigationClasses(CaseStudyURL.TextShadow)} href={CaseStudyURL.TextShadow}>
               <p>TailwindCSS Text Shadow</p>
             </Link>
