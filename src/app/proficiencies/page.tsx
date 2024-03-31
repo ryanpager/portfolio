@@ -121,6 +121,10 @@ export default function Proficiencies() {
         <ProficiencyCard icon="jira" skillLevel={8} />
         <ProficiencyCard icon="trello" skillLevel={10} />
         <ProficiencyCard icon="notion" skillLevel={7} />
+
+        <ProficiencyCard icon="figma" skillLevel={6} />
+        <ProficiencyCard icon="slack" skillLevel={10} />
+        <ProficiencyCard icon="discordjs" skillLevel={8} />
       </div>
     </div>
   );

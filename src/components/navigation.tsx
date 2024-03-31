@@ -2,8 +2,9 @@
 
 import { usePathname } from 'next/navigation';
 import Image from "next/image";
-import Link from 'next/link';
 import { MapPinIcon, EnvelopeIcon } from '@heroicons/react/24/solid';
+// components
+import LinkTransition from '@/components/TransitionLink';
 
 // Since it would be terrible to pass around strings for
 // things that could change, we want to go ahead and map
@@ -127,24 +128,24 @@ export default function Navigation() {
         </div>
         {/* Anchors & Links */}
         <div className="flex-col space-y-4 pt-4">
-          <Link className={getNavigationClasses(URL.AboutMe)} href={URL.AboutMe}>
+          <LinkTransition className={getNavigationClasses(URL.AboutMe)} href={URL.AboutMe}>
             <p>A Little Bit About Me</p>
-          </Link>
-          <Link className={getNavigationClasses(URL.Projects)} href={URL.Projects}>
+          </LinkTransition>
+          <LinkTransition className={getNavigationClasses(URL.Projects)} href={URL.Projects}>
             <p>What I'm Working On</p>
-          </Link>
-          <Link className={getNavigationClasses(URL.Principles)} href={URL.Principles}>
+          </LinkTransition>
+          <LinkTransition className={getNavigationClasses(URL.Principles)} href={URL.Principles}>
             <p>Development Principles</p>
-          </Link>
-          <Link className={getNavigationClasses(URL.Proficiencies)} href={URL.Proficiencies}>
+          </LinkTransition>
+          <LinkTransition className={getNavigationClasses(URL.Proficiencies)} href={URL.Proficiencies}>
             <p>Skills & Proficiencies</p>
-          </Link>
-          <Link className={getNavigationClasses(URL.Publications)} href={URL.Publications}>
+          </LinkTransition>
+          <LinkTransition className={getNavigationClasses(URL.Publications)} href={URL.Publications}>
             <p>Publications</p>
-          </Link>
-          <Link className={getNavigationClasses(URL.CaseStudies)} href={URL.CaseStudies}>
+          </LinkTransition>
+          <LinkTransition className={getNavigationClasses(URL.CaseStudies)} href={URL.CaseStudies}>
             <p>Case Studies</p>
-          </Link>
+          </LinkTransition>
         </div>
       </div>
     </div>
