@@ -1,4 +1,3 @@
-import Image from "next/image";
 // components
 import ProficiencyCard from '@/components/ProficiencyCard';
 // fixtures
@@ -16,7 +15,7 @@ export default function Proficiencies() {
       <div className="flex-col text-center">
         <h1 className="text-4xl text-slate-800 font-bold">Skills & Proficiencies</h1>
         <p className="mx-auto text-sm text-slate-500 max-w-prose text-center leading-8 mt-4">
-          At this point in my career, I've come to learn that its impossible to solve all
+          At this point in my career, I&apos;ve come to learn that its impossible to solve all
           problems with just one language or tool &mdash; and because of this, I have acquired
           a ton of experience across the board in numerous languages, technologies and tooling.
         </p>
@@ -38,7 +37,7 @@ export default function Proficiencies() {
       </div>
       <div className="grid md:grid-cols-3 gap-8">
         {ProficienciesFixture.languages.map((proficiency: Proficiency) => {
-          return <ProficiencyCard icon={proficiency.type} skillLevel={proficiency.level} />
+          return <ProficiencyCard key={proficiency.type} icon={proficiency.type} skillLevel={proficiency.level} />
         })}
       </div>
 
@@ -55,7 +54,7 @@ export default function Proficiencies() {
       </div>
       <div className="grid md:grid-cols-3 gap-8">
         {ProficienciesFixture.devops.map((proficiency: Proficiency) => {
-          return <ProficiencyCard icon={proficiency.type} skillLevel={proficiency.level} />
+          return <ProficiencyCard key={proficiency.type} icon={proficiency.type} skillLevel={proficiency.level} />
         })}
       </div>
 
@@ -73,7 +72,7 @@ export default function Proficiencies() {
       </div>
       <div className="grid md:grid-cols-3 gap-8">
         {ProficienciesFixture.frameworks.map((proficiency: Proficiency) => {
-          return <ProficiencyCard icon={proficiency.type} skillLevel={proficiency.level} />
+          return <ProficiencyCard key={proficiency.type} icon={proficiency.type} skillLevel={proficiency.level} />
         })}
       </div>
 
@@ -91,7 +90,7 @@ export default function Proficiencies() {
       </div>
       <div className="grid md:grid-cols-3 gap-8">
         {ProficienciesFixture.projectManagement.map((proficiency: Proficiency) => {
-          return <ProficiencyCard icon={proficiency.type} skillLevel={proficiency.level} />
+          return <ProficiencyCard key={proficiency.type} icon={proficiency.type} skillLevel={proficiency.level} />
         })}
       </div>
     </div>

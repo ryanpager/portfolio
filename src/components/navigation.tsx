@@ -2,9 +2,9 @@
 
 import { usePathname } from 'next/navigation';
 import Image from "next/image";
+import Link from "next/link";
+// icons
 import { MapPinIcon, EnvelopeIcon } from '@heroicons/react/24/solid';
-// components
-import LinkTransition from '@/components/TransitionLink';
 
 // Since it would be terrible to pass around strings for
 // things that could change, we want to go ahead and map
@@ -19,6 +19,11 @@ enum URL {
   Publications = '/publications'
 }
 
+enum CaseStudyURL {
+  TextShadow = '/case-studies/implementing-tailwindcss-text-shadow',
+  RuntimeBranding = '/case-studies/angularjs-runtime-branding'
+}
+
 export default function Navigation() {
   const pathname = usePathname()
 
@@ -30,7 +35,7 @@ export default function Navigation() {
    * @returns classList - a list of classes representing the current
    *                      state of the navigation.
    */
-  function getNavigationClasses(path: URL): string {
+  function getNavigationClasses(path: URL | CaseStudyURL): string {
     let classList: Array<string> = [
       'flex',
       'space-x-2',
@@ -128,24 +133,32 @@ export default function Navigation() {
         </div>
         {/* Anchors & Links */}
         <div className="flex-col space-y-4 pt-4">
-          <LinkTransition className={getNavigationClasses(URL.AboutMe)} href={URL.AboutMe}>
-            <p>A Little Bit About Me</p>
-          </LinkTransition>
-          <LinkTransition className={getNavigationClasses(URL.Projects)} href={URL.Projects}>
-            <p>What I'm Working On</p>
-          </LinkTransition>
-          <LinkTransition className={getNavigationClasses(URL.Principles)} href={URL.Principles}>
+          <Link className={getNavigationClasses(URL.AboutMe)} href={URL.AboutMe}>
+            <p>Foreword</p>
+          </Link>
+          <Link className={getNavigationClasses(URL.Projects)} href={URL.Projects}>
+            <p>Current Projects</p>
+          </Link>
+          <Link className={getNavigationClasses(URL.Principles)} href={URL.Principles}>
             <p>Development Principles</p>
-          </LinkTransition>
-          <LinkTransition className={getNavigationClasses(URL.Proficiencies)} href={URL.Proficiencies}>
+          </Link>
+          <Link className={getNavigationClasses(URL.Proficiencies)} href={URL.Proficiencies}>
             <p>Skills & Proficiencies</p>
-          </LinkTransition>
-          <LinkTransition className={getNavigationClasses(URL.Publications)} href={URL.Publications}>
+          </Link>
+          <Link className={getNavigationClasses(URL.Publications)} href={URL.Publications}>
             <p>Publications</p>
-          </LinkTransition>
-          <LinkTransition className={getNavigationClasses(URL.CaseStudies)} href={URL.CaseStudies}>
+          </Link>
+          <Link className={getNavigationClasses(URL.CaseStudies)} href={URL.CaseStudies}>
             <p>Case Studies</p>
-          </LinkTransition>
+          </Link>
+          <div className="pl-6 flex-col space-y-4">
+            <Link className={getNavigationClasses(CaseStudyURL.TextShadow)} href={CaseStudyURL.TextShadow}>
+              <p>TailwindCSS Text Shadow</p>
+            </Link>
+            <Link className={getNavigationClasses(CaseStudyURL.RuntimeBranding)} href={CaseStudyURL.RuntimeBranding}>
+              <p>AngularJS Realtime Branding</p>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

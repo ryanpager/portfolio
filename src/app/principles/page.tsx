@@ -35,7 +35,7 @@ export default function Principles() {
             scalable, and resilient systems that stand the test of time.
           </p>
           <p className="text-justify text-sm text-slate-500 font-light leading-8">
-            Design is not just about aesthetics—it's about creating intuitive, elegant solutions that 
+            Design is not just about aesthetics—it&apos;s about creating intuitive, elegant solutions that 
             delight users and stand the test of time. I manifest my obsession with design perfection 
             into every pixel, every interaction, and every user journey. With an unwavering focus 
             on user experience and interface design, I love to elevate creations from mere 
@@ -61,7 +61,7 @@ export default function Principles() {
           <p className="text-justify text-sm text-slate-500 font-light leading-8">
             Mistakes are not roadblocks; they are stepping stones on the path to greatness. 
             With each setback, I gain invaluable insight, honing my skills and refining 
-            my approach to solving the problem at hand. Whether it's a bug in the code, a 
+            my approach to solving the problem at hand. Whether it&apos;s a bug in the code, a 
             flaw in the architecture, or a performance degredation, I welcome each challenge 
             as a chance to learn, adapt, and evolve.
           </p>
@@ -93,14 +93,14 @@ export default function Principles() {
           <h3 className="font-semibold text-2xl text-slate-600">Knowledge is Power</h3>
           <p className="text-justify text-sm text-slate-500 font-light leading-8">
             Every project presents a unique puzzle to solve, a chance to expand your knowledge horizons. 
-            Whether you're delving into unfamiliar territories or mastering advanced techniques, each line 
+            Whether you&apos;re delving into unfamiliar territories or mastering advanced techniques, each line 
             of code is a step closer to expertise. Seize the opportunity to explore cutting-edge technologies, 
             refine your skills, and elevate your craft with every project you tackle.
           </p>
           <p className="text-justify text-sm text-slate-500 font-light leading-8">
             In the world of programming, knowledge-sharing is key to collective advancement.
             Every project offers a platform to mentor, guide, and inspire fellow developers. 
-            Whether it's through code reviews, pair programming sessions, or open-source contributions, 
+            Whether it&apos;s through code reviews, pair programming sessions, or open-source contributions, 
             you have the power to empower others on their coding journey. Embrace the role of a mentor 
             and watch as your insights spark innovation and foster a vibrant community of learning.
           </p>
@@ -116,16 +116,16 @@ export default function Principles() {
           <h3 className="font-semibold text-2xl text-slate-600">Teamwork Makes the Dream Work</h3>
           <p className="text-justify text-sm text-slate-500 font-light leading-8">
             In a collaborative environment, ideas flow freely, sparking innovation at every turn. 
-            Leveraging the creativity and ingenuity of your teammates to push the boundaries of what's 
-            possible, brainstorming solutions, and iterating on concepts until you've uncovered the 
-            perfect solution. With each team member contributing their unique perspective, you'll 
+            Leveraging the creativity and ingenuity of your teammates to push the boundaries of what&apos;s 
+            possible, brainstorming solutions, and iterating on concepts until you&apos;ve uncovered the 
+            perfect solution. With each team member contributing their unique perspective, you&apos;ll 
             unearth innovative solutions that elevate your projects to new heights.
           </p>
           <p className="text-justify text-sm text-slate-500 font-light leading-8">
             In the fast-paced world of software development, staying ahead of the curve is essential. 
             In a team environment, feedback is abundant, providing you with valuable insights and 
-            opportunities for growth. Whether it's code reviews, peer mentoring, or knowledge-sharing 
-            sessions, you'll have access to a wealth of resources to help you refine your skills, 
+            opportunities for growth. Whether it&apos;s code reviews, peer mentoring, or knowledge-sharing 
+            sessions, you&apos;ll have access to a wealth of resources to help you refine your skills, 
             expand your horizons, and become the best developer you can be.
           </p>
         </div>
