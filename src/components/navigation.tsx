@@ -156,7 +156,7 @@ export default function Navigation() {
               <p>TailwindCSS Text Shadow</p>
             </Link>
             <Link className={getNavigationClasses(CaseStudyURL.RuntimeBranding)} href={CaseStudyURL.RuntimeBranding}>
-              <p>AngularJS Realtime Branding</p>
+              <p>AngularJS Runtime Branding</p>
             </Link>
           </div>
         </div>

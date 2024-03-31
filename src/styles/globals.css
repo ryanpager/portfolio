@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Code Blocks Overrides */
+code .linenumber.react-syntax-highlighter-line-number {
+  text-align: left !important;
+}
+
+code .token.token {
+  padding-left: 0 !important;
+}
