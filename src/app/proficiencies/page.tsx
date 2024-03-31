@@ -1,7 +1,13 @@
 import Image from "next/image";
 // components
 import ProficiencyCard from '@/components/ProficiencyCard';
-import ProgressBar from "@/components/ProgressBar";
+// fixtures
+import * as ProficienciesFixture from "@/fixtures/proficiencies";
+
+type Proficiency = {
+  type: string;
+  level: number;
+}
 
 export default function Proficiencies() {
   return (
@@ -31,21 +37,9 @@ export default function Proficiencies() {
         </p>
       </div>
       <div className="grid md:grid-cols-3 gap-8">
-        <ProficiencyCard icon="elixir" skillLevel={9} />
-        <ProficiencyCard icon="rust" skillLevel={6} />
-        <ProficiencyCard icon="go" skillLevel={6} />
-
-        <ProficiencyCard icon="python" skillLevel={7} />
-        <ProficiencyCard icon="ruby" skillLevel={7} />
-        <ProficiencyCard icon="php" skillLevel={8} />
-
-        <ProficiencyCard icon="nodejs" skillLevel={9} />
-        <ProficiencyCard icon="csharp" skillLevel={6} />
-        <ProficiencyCard icon="c" skillLevel={6} />
-        
-        <ProficiencyCard icon="typescript" skillLevel={9} />
-        <ProficiencyCard icon="html5" skillLevel={10} />
-        <ProficiencyCard icon="css3" skillLevel={10} />
+        {ProficienciesFixture.languages.map((proficiency: Proficiency) => {
+          return <ProficiencyCard icon={proficiency.type} skillLevel={proficiency.level} />
+        })}
       </div>
 
       {/* Divider */}
@@ -60,17 +54,9 @@ export default function Proficiencies() {
         </p>
       </div>
       <div className="grid md:grid-cols-3 gap-8">
-        <ProficiencyCard icon="amazon web services" skillLevel={6} />
-        <ProficiencyCard icon="google cloud" skillLevel={6} />
-        <ProficiencyCard icon="azure" skillLevel={6} />
-
-        <ProficiencyCard icon="docker" skillLevel={6} />
-        <ProficiencyCard icon="kubernetes" skillLevel={6} />
-        <ProficiencyCard icon="github actions" skillLevel={6} />
-
-        <ProficiencyCard icon="nginx" skillLevel={9} />
-        <ProficiencyCard icon="apache" skillLevel={8} />
-        <ProficiencyCard icon="jenkins" skillLevel={6} />
+        {ProficienciesFixture.devops.map((proficiency: Proficiency) => {
+          return <ProficiencyCard icon={proficiency.type} skillLevel={proficiency.level} />
+        })}
       </div>
 
       {/* Divider */}
@@ -86,23 +72,9 @@ export default function Proficiencies() {
         </p>
       </div>
       <div className="grid md:grid-cols-3 gap-8">
-        <ProficiencyCard icon="phoenix" skillLevel={10} />
-        <ProficiencyCard icon="rails" skillLevel={7} />
-        <ProficiencyCard icon="django" skillLevel={6} />
-
-        <ProficiencyCard icon="angular" skillLevel={7} />
-        <ProficiencyCard icon="react" skillLevel={8} />
-        <ProficiencyCard icon="vuejs" skillLevel={8} />
-
-        <ProficiencyCard icon="tailwindcss" skillLevel={10} />
-
-        <ProficiencyCard icon="nestjs" skillLevel={6} />
-        <ProficiencyCard icon="nextjs" skillLevel={6} />
-        <ProficiencyCard icon="sequelize" skillLevel={6} />
-
-        <ProficiencyCard icon="flutter" skillLevel={5} />
-        <ProficiencyCard icon="xamarin" skillLevel={8} />
-        <ProficiencyCard icon="ionic" skillLevel={8} />
+        {ProficienciesFixture.frameworks.map((proficiency: Proficiency) => {
+          return <ProficiencyCard icon={proficiency.type} skillLevel={proficiency.level} />
+        })}
       </div>
 
       {/* Divider */}
@@ -118,13 +90,9 @@ export default function Proficiencies() {
         </p>
       </div>
       <div className="grid md:grid-cols-3 gap-8">
-        <ProficiencyCard icon="jira" skillLevel={8} />
-        <ProficiencyCard icon="trello" skillLevel={10} />
-        <ProficiencyCard icon="notion" skillLevel={7} />
-
-        <ProficiencyCard icon="figma" skillLevel={6} />
-        <ProficiencyCard icon="slack" skillLevel={10} />
-        <ProficiencyCard icon="discordjs" skillLevel={8} />
+        {ProficienciesFixture.projectManagement.map((proficiency: Proficiency) => {
+          return <ProficiencyCard icon={proficiency.type} skillLevel={proficiency.level} />
+        })}
       </div>
     </div>
   );
