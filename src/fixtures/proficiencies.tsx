@@ -34,7 +34,7 @@ export const frameworks = [
   { type: 'vuejs', level: 9 },
   { type: 'nestjs', level: 8 },
   { type: 'nextjs', level: 8 },
-  { type: 'sequelize', level: 6 },
+  { type: 'threejs', level: 9 },
   { type: 'flutter', level: 7 },
   { type: 'ionic', level: 9 },
   { type: 'xamarin', level: 7 },

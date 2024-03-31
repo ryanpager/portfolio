@@ -10,7 +10,7 @@ type Proficiency = {
 
 export default function Proficiencies() {
   return (
-    <div className="flex-col space-y-28">
+    <div className="flex-col space-y-16">
       {/* Section Header */}
       <div className="flex-col text-center">
         <h1 className="text-4xl text-slate-800 font-bold">Skills & Proficiencies</h1>
