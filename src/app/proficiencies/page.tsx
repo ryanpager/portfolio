@@ -42,7 +42,7 @@ export default function Proficiencies() {
           mobile, web and desktop.
         </p>
       </div>
-      <div className="grid md:grid-cols-3 gap-8 max-w-3xl mx-auto">
+      <div className="grid md:grid-cols-3 gap-8 mx-auto">
         {ProficienciesFixture.languages.map((proficiency: Proficiency) => {
           return <ProficiencyCard key={proficiency.type} icon={proficiency.type} skillLevel={proficiency.level} />
         })}
@@ -59,7 +59,7 @@ export default function Proficiencies() {
           is used on a very frequent basis among many projects.
         </p>
       </div>
-      <div className="grid md:grid-cols-3 gap-8 max-w-3xl mx-auto">
+      <div className="grid md:grid-cols-3 gap-8 mx-auto">
         {ProficienciesFixture.devops.map((proficiency: Proficiency) => {
           return <ProficiencyCard key={proficiency.type} icon={proficiency.type} skillLevel={proficiency.level} />
         })}
@@ -76,7 +76,7 @@ export default function Proficiencies() {
           performance for high intensity applications.
         </p>
       </div>
-      <div className="grid md:grid-cols-3 gap-8 max-w-3xl mx-auto">
+      <div className="grid md:grid-cols-3 gap-8 mx-auto">
         {ProficienciesFixture.databases.map((proficiency: Proficiency) => {
           return <ProficiencyCard key={proficiency.type} icon={proficiency.type} skillLevel={proficiency.level} />
         })}
@@ -94,7 +94,7 @@ export default function Proficiencies() {
           basis.
         </p>
       </div>
-      <div className="grid md:grid-cols-3 gap-8 max-w-3xl mx-auto">
+      <div className="grid md:grid-cols-3 gap-8 mx-auto">
         {ProficienciesFixture.frameworks.map((proficiency: Proficiency) => {
           return <ProficiencyCard key={proficiency.type} icon={proficiency.type} skillLevel={proficiency.level} />
         })}
@@ -112,7 +112,7 @@ export default function Proficiencies() {
           tools &mdash; so I go with what fits best.
         </p>
       </div>
-      <div className="grid md:grid-cols-3 gap-8 max-w-3xl mx-auto">
+      <div className="grid md:grid-cols-3 gap-8 mx-auto">
         {ProficienciesFixture.projectManagement.map((proficiency: Proficiency) => {
           return <ProficiencyCard key={proficiency.type} icon={proficiency.type} skillLevel={proficiency.level} />
         })}

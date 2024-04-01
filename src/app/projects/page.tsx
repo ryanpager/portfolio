@@ -26,7 +26,7 @@ export default function Projects() {
       <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Project - Esprezzo */}
-      <div className="flex items-start max-w-3xl mx-auto space-x-8">
+      <div className="flex items-start mx-auto space-x-8">
         <Image
           src="/project-icons/esprezzo.png"
           alt="Go faster with Esprezzo Dispatch. Build & automate workflows, monitor smart contract & wallet activity and stream Web3 data — no code required."
@@ -87,7 +87,7 @@ export default function Projects() {
       <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Project - QuiAri */}
-      <div className="flex items-start max-w-3xl mx-auto space-x-8">
+      <div className="flex items-start mx-auto space-x-8">
         <Image
           src="/project-icons/quiari.svg"
           alt="QuiAri, new wellness products, superfruits, energy supplements, weight loss products, health and wellness, number 1 superfruit."
@@ -159,7 +159,7 @@ export default function Projects() {
       <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Project - VRIFY */}
-      <div className="flex items-start max-w-3xl mx-auto space-x-8">
+      <div className="flex items-start mx-auto space-x-8">
         <Image
           src="/project-icons/vrify.svg"
           alt="Redefine your communication by turning flat, 2D stories into compelling, immersive 3D narratives with VRIFY. Engage investors with interactive 360° presentations &amp; meetings, showcasing a project&#x27;s true depth and potential."
@@ -218,7 +218,7 @@ export default function Projects() {
       <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Project - BenchApp */}
-      <div className="flex items-start max-w-3xl mx-auto space-x-8">
+      <div className="flex items-start mx-auto space-x-8">
         <Image
           src="/project-icons/benchapp.webp"
           alt="The best in team management. Keep your teams and players organized from home, the office, or on the road. From your computer, tablet or smart phone."
@@ -283,7 +283,7 @@ export default function Projects() {
       <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Section - End */}
-      <div className="flex items-start max-w-3xl mx-auto space-x-16">
+      <div className="flex items-start mx-auto space-x-16">
         <p className="text-justify text-sm text-slate-500 leading-8">
           These are just some of the projects that I have been involved with; but there are
           many more that I have worked on in the past. While I stay on a project until the work

@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${fontFamily.className} bg-white`}>
-        <div className="mx-auto max-w-screen-2xl px-16 py-24">
+        <div className="mx-auto max-w-screen-xl py-24">
           <div className="flex space-x-8">
             <div className="flex-none w-1/4 hidden lg:block">
               <Navigation />

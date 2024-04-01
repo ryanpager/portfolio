@@ -24,7 +24,7 @@ export default function Home() {
       <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Section - About Me */}
-      <div className="flex-col max-w-3xl mx-auto space-y-4">
+      <div className="flex-col mx-auto space-y-4">
         <h2 className="text-xl text-slate-600 font-bold text-center">About Me</h2>
         <p className="text-justify text-sm text-slate-500 leading-8">
           Back in 2000 I migrated south with my family from Mississauga, Ontario to
