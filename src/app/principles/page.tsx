@@ -33,15 +33,15 @@ export default function Principles() {
           priority
         />
         <div className="flex-auto space-y-8 -mt-2">
-          <h3 className="font-semibold text-2xl text-slate-600">Obsessed with Quality to a Fault</h3>
-          <p className="text-justify text-sm text-slate-500 font-light leading-8">
+          <h3 className="text-xl text-slate-600 font-bold text-right">Obsessed with Quality to a Fault</h3>
+          <p className="text-justify text-sm text-slate-500 leading-8">
             In the realm of software architecture, mediocrity is not an option. Embracing
             a mindset of relentless pursuit of perfection, where every architectural decision
             is meticulously crafted to withstand the test of time. From microservices to monoliths,
             my obsession with architectural excellence will lay the foundation for robust,
             scalable, and resilient systems that stand the test of time.
           </p>
-          <p className="text-justify text-sm text-slate-500 font-light leading-8">
+          <p className="text-justify text-sm text-slate-500 leading-8">
             Design is not just about aesthetics—it&apos;s about creating intuitive, elegant solutions that 
             delight users and stand the test of time. I manifest my obsession with design perfection 
             into every pixel, every interaction, and every user journey. With an unwavering focus 
@@ -57,15 +57,15 @@ export default function Principles() {
       {/* Section - Never Give Up */}
       <div className="flex items-start space-x-16">
         <div className="flex-auto space-y-8 -mt-2">
-          <h3 className="font-semibold text-2xl text-slate-600">Never Give Up, Never Surrender</h3>
-          <p className="text-justify text-sm text-slate-500 font-light leading-8">
+          <h3 className="text-xl text-slate-600 font-bold text-left">Never Give Up, Never Surrender</h3>
+          <p className="text-justify text-sm text-slate-500 leading-8">
             In the world of software development, challenges abound and obstacles loom large—
             but true success belongs to those who never surrender to adversity. Perseverance is everything. 
             No matter how daunting the task, no matter how insurmountable the odds, I refuse to back down. 
             Instead, I embrace each setback as an opportunity for growth, each failure as a 
             lesson in disguise.
           </p>
-          <p className="text-justify text-sm text-slate-500 font-light leading-8">
+          <p className="text-justify text-sm text-slate-500 leading-8">
             Mistakes are not roadblocks; they are stepping stones on the path to greatness. 
             With each setback, I gain invaluable insight, honing my skills and refining 
             my approach to solving the problem at hand. Whether it&apos;s a bug in the code, a 
@@ -97,14 +97,14 @@ export default function Principles() {
           priority
         />
         <div className="flex-auto space-y-8 -mt-2">
-          <h3 className="font-semibold text-2xl text-slate-600">Knowledge is Power</h3>
-          <p className="text-justify text-sm text-slate-500 font-light leading-8">
+          <h3 className="text-xl text-slate-600 font-bold text-right">Knowledge is Power</h3>
+          <p className="text-justify text-sm text-slate-500 leading-8">
             Every project presents a unique puzzle to solve, a chance to expand your knowledge horizons. 
             Whether you&apos;re delving into unfamiliar territories or mastering advanced techniques, each line 
             of code is a step closer to expertise. Seize the opportunity to explore cutting-edge technologies, 
             refine your skills, and elevate your craft with every project you tackle.
           </p>
-          <p className="text-justify text-sm text-slate-500 font-light leading-8">
+          <p className="text-justify text-sm text-slate-500 leading-8">
             In the world of programming, knowledge-sharing is key to collective advancement.
             Every project offers a platform to mentor, guide, and inspire fellow developers. 
             Whether it&apos;s through code reviews, pair programming sessions, or open-source contributions, 
@@ -120,15 +120,15 @@ export default function Principles() {
       {/* Section - Teamwork */}
       <div className="flex items-start space-x-16">
         <div className="flex-auto space-y-8 -mt-2">
-          <h3 className="font-semibold text-2xl text-slate-600">Teamwork Makes the Dream Work</h3>
-          <p className="text-justify text-sm text-slate-500 font-light leading-8">
+          <h3 className="text-xl text-slate-600 font-bold text-right">Teamwork Makes the Dream Work</h3>
+          <p className="text-justify text-sm text-slate-500 leading-8">
             In a collaborative environment, ideas flow freely, sparking innovation at every turn. 
             Leveraging the creativity and ingenuity of your teammates to push the boundaries of what&apos;s 
             possible, brainstorming solutions, and iterating on concepts until you&apos;ve uncovered the 
             perfect solution. With each team member contributing their unique perspective, you&apos;ll 
             unearth innovative solutions that elevate your projects to new heights.
           </p>
-          <p className="text-justify text-sm text-slate-500 font-light leading-8">
+          <p className="text-justify text-sm text-slate-500 leading-8">
             In the fast-paced world of software development, staying ahead of the curve is essential. 
             In a team environment, feedback is abundant, providing you with valuable insights and 
             opportunities for growth. Whether it&apos;s code reviews, peer mentoring, or knowledge-sharing 

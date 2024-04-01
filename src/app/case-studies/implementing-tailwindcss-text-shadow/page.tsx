@@ -32,7 +32,7 @@ export default function CaseStudy() {
 
       {/* Section - Foreword */}
       <div className="text-center space-y-8 max-w-3xl mx-auto">
-        <h2 className="text-2xl text-slate-600 font-bold">Forword</h2>
+        <h2 className="text-xl text-slate-600 font-bold text-center">Foreword</h2>
         <p className="text-sm text-slate-500 text-justify leading-8">
           What seem's to be one of the most requested features in TailwindCSS, but also one of
           the trickiest is the implementation of the text-shadow property in css. Due to the
@@ -54,7 +54,7 @@ export default function CaseStudy() {
 
       {/* Section - Problems */}
       <div className="text-center space-y-8 max-w-3xl mx-auto">
-        <h2 className="text-2xl text-slate-600 font-bold">The Root Problem & Considerations</h2>
+        <h2 className="text-xl text-slate-600 font-bold text-center">The Root Problem & Considerations</h2>
         <p className="text-sm text-slate-500 text-justify leading-8">
           The css property text-shaddow is inherently more difficult to implemenant 
           than its cousin box-shadow due to the underlying syntax in the css engine. All
@@ -79,7 +79,7 @@ export default function CaseStudy() {
 
       {/* Section - Solution 1 - Bloat */}
       <div className="text-center space-y-8 max-w-3xl mx-auto">
-        <h2 className="text-2xl text-slate-600 font-bold">Solution One: Bloat Compiled CSS and Cry</h2>
+        <h2 className="text-xl text-slate-600 font-bold text-center">Solution One: Bloat Compiled CSS and Cry</h2>
         <p className="text-sm text-slate-500 text-justify leading-8">
           Solution one is <b>absolutely not acceptable.</b> It will <b>not</b> perform well, compile times
           will be extremely slow, and the css performance will be terrible. Additionally, this is extremely
@@ -99,7 +99,7 @@ export default function CaseStudy() {
 
       {/* Section - Solution 2 - JIT */}
       <div className="text-center space-y-8 max-w-3xl mx-auto">
-        <h2 className="text-2xl text-slate-600 font-bold">Solution 2: JIT Preprocessing to the Rescue</h2>
+        <h2 className="text-xl text-slate-600 font-bold text-center">Solution 2: JIT Preprocessing to the Rescue</h2>
         <p className="text-sm text-slate-500 text-justify leading-8">
           Using a preprocessor for Just-In-Time compiling (JIT) seems to be an extremely efficient solution
           to this problem. We would be able to extrapolate classes that are actually in use, and then
@@ -115,7 +115,7 @@ export default function CaseStudy() {
 
       {/* Possible Implementation */}
       <div className="text-center space-y-8 max-w-3xl mx-auto">
-        <h2 className="text-2xl text-slate-600 font-bold">Usage Examples</h2>
+        <h2 className="text-xl text-slate-600 font-bold text-center">Usage Examples</h2>
         <CodeBlock code={usageExampleCode} language="typescript" />
       </div>
 
@@ -124,7 +124,7 @@ export default function CaseStudy() {
 
       {/* Section - Solution 2 - JIT */}
       <div className="text-center space-y-8 max-w-3xl mx-auto">
-        <h2 className="text-2xl text-slate-600 font-bold">Final Thoughts</h2>
+        <h2 className="text-xl text-slate-600 font-bold text-center">Final Thoughts</h2>
         <p className="text-sm text-slate-500 text-justify leading-8">
           The purpose of this case study was to determine whether or not it is possible
           to implement the text shadow property gracefully (hint: it is) but there is still a ton

@@ -36,7 +36,7 @@ export default function Proficiencies() {
 
       {/* Languages - Proficiencies Grid */}
       <div className="text-center">
-        <h2 className="text-2xl text-slate-600 font-bold">Languages</h2>
+        <h2 className="text-xl text-slate-600 font-bold text-center">Languages</h2>
         <p className="mx-auto text-sm text-slate-500 max-w-prose text-center leading-8 mt-4">
           Languages that I have experience with in all types of applications &mdash; 
           mobile, web and desktop.
@@ -53,7 +53,7 @@ export default function Proficiencies() {
 
       {/* Cloud & DevOp - Proficiencies Grid */}
       <div className="text-center">
-        <h2 className="text-2xl text-slate-600 font-bold">Cloud & DevOps</h2>
+        <h2 className="text-xl text-slate-600 font-bold text-center">Cloud & DevOps</h2>
         <p className="mx-auto text-sm text-slate-500 max-w-prose text-center leading-8 mt-4">
           Cloud Hosting providers that I have used extensively, as well as dev op tooling that
           is used on a very frequent basis among many projects.
@@ -70,7 +70,7 @@ export default function Proficiencies() {
 
       {/* Languages - Proficiencies Grid */}
       <div className="text-center">
-        <h2 className="text-2xl text-slate-600 font-bold">Data Storage</h2>
+        <h2 className="text-xl text-slate-600 font-bold text-center">Data Storage</h2>
         <p className="mx-auto text-sm text-slate-500 max-w-prose text-center leading-8 mt-4">
           Databases and in-memory stores that I have used extensively to provide better
           performance for high intensity applications.
@@ -87,7 +87,7 @@ export default function Proficiencies() {
 
       {/* Frameworks - Proficiencies Grid */}
       <div className="text-center">
-        <h2 className="text-2xl text-slate-600 font-bold">Frameworks</h2>
+        <h2 className="text-xl text-slate-600 font-bold text-center">Frameworks</h2>
         <p className="mx-auto text-sm text-slate-500 max-w-prose text-center leading-8 mt-4">
           I believe strongly in understanding and leveraging tools that are available to
           most developers out of the box. These are some of the frameworks that I use on a daily
@@ -105,7 +105,7 @@ export default function Proficiencies() {
 
       {/* Project Management - Proficiencies Grid */}
       <div className="text-center">
-        <h2 className="text-2xl text-slate-600 font-bold">Project Management & Tools</h2>
+        <h2 className="text-xl text-slate-600 font-bold text-center">Project Management & Tools</h2>
         <p className="mx-auto text-sm text-slate-500 max-w-prose text-center leading-8 mt-4">
           The following are the tools that I use to stay organized, and manage
           projects from inception to completion. Different projects call for different

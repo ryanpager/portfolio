@@ -32,7 +32,7 @@ export default function CaseStudy() {
 
       {/* Section - Foreword */}
       <div className="text-center space-y-8 max-w-3xl mx-auto">
-        <h2 className="text-2xl text-slate-600 font-bold">Forword</h2>
+        <h2 className="text-xl text-slate-600 font-bold text-center">Foreword</h2>
         <p className="text-sm text-slate-500 text-justify leading-8">
           Branding is one of the more important aspects of business to business application development. In specific,
           nothing is more powerful then walking into a business meeting with a client whom you are trying to sell
@@ -82,7 +82,7 @@ export default function CaseStudy() {
 
       {/* Section - Setup */}
       <div className="text-center space-y-16 max-w-3xl mx-auto">
-        <h2 className="text-2xl text-slate-600 font-bold">Setting Everything Up</h2>
+        <h2 className="text-xl text-slate-600 font-bold text-center">Setting Everything Up</h2>
         <p className="text-sm text-slate-500 text-justify leading-8">
           This article is going to use some tools in specific in order to accomplish the 
           branding goals. This article only focuses on the use of three tools to accomplish 
@@ -126,7 +126,7 @@ export default function CaseStudy() {
 
       {/* Section - Diving In */}
       <div className="text-center space-y-8 max-w-3xl mx-auto">
-        <h2 className="text-2xl text-slate-600 font-bold">Diving In</h2>
+        <h2 className="text-xl text-slate-600 font-bold text-center">Diving In</h2>
         <p className="text-sm text-slate-500 text-justify leading-8">
           The basis for running an application in angular through a branding configuration is 
           simple and follows only a few steps,
@@ -154,7 +154,7 @@ export default function CaseStudy() {
 
       {/* Section - Code */}
       <div className="text-center space-y-16 max-w-3xl mx-auto">
-        <h2 className="text-2xl text-slate-600 font-bold">Example Code</h2>
+        <h2 className="text-xl text-slate-600 font-bold text-center">Example Code</h2>
         <CodeBlock code={configurationCode} language="javascript" />
         <p className="text-sm text-slate-500 text-justify leading-8">
           Pretty simple, eh? Nothing too special...just a static file which can be shared/injected 
@@ -169,7 +169,7 @@ export default function CaseStudy() {
 
       {/* Section - Code */}
       <div className="text-center space-y-16 max-w-3xl mx-auto">
-        <h2 className="text-2xl text-slate-600 font-bold">Implementation Code</h2>
+        <h2 className="text-xl text-slate-600 font-bold text-center">Implementation Code</h2>
         <CodeBlock code={angularModuleCode} language="javascript" />
       </div>
 
@@ -213,7 +213,7 @@ export default function CaseStudy() {
 
       {/* Section - Code */}
       <div className="text-center space-y-16 max-w-3xl mx-auto">
-        <h2 className="text-2xl text-slate-600 font-bold">Usage</h2>
+        <h2 className="text-xl text-slate-600 font-bold text-center">Usage</h2>
         <CodeBlock code={usageCode} language="html" />
       </div>
 
@@ -222,7 +222,7 @@ export default function CaseStudy() {
 
       {/* Section - Custom Elements */}
       <div className="text-center space-y-16 max-w-3xl mx-auto">
-        <h2 className="text-2xl text-slate-600 font-bold">Extending for Custom Components</h2>
+        <h2 className="text-xl text-slate-600 font-bold text-center">Extending for Custom Components</h2>
         <p className="text-sm text-slate-500 text-justify leading-8">
           There are various ways to extend the ngMaterial "mindset" into our own application -- 
           and one of them is through the use of custom directives. The idea here is that we 
