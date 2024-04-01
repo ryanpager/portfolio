@@ -22,7 +22,7 @@ export default function CaseStudy() {
         <h1 className="text-4xl text-slate-800 font-bold">
           AngularJS Runtime Branding
         </h1>
-        <p className="mx-auto text-lg font-semibold text-slate-500 max-w-prose text-center leading-8 mt-4">
+        <p className="mx-auto text-lg font-semibold text-slate-500 max-w-prose text-center leading-6 lg:leading-8 mt-4">
           Fun with AngularJS, ngMaterial, and Cordova (or Ionic)
         </p>
       </div>
@@ -33,7 +33,7 @@ export default function CaseStudy() {
       {/* Section - Foreword */}
       <div className="text-center space-y-8 mx-auto">
         <h2 className="text-xl text-slate-600 font-bold text-center">Foreword</h2>
-        <p className="text-sm text-slate-500 text-justify leading-8">
+        <p className="text-sm text-slate-500 text-justify leading-6 lg:leading-8">
           Branding is one of the more important aspects of business to business application development. In specific,
           nothing is more powerful then walking into a business meeting with a client whom you are trying to sell
           you application to; then showing them a completely redesigned application -- specifically the way
@@ -42,17 +42,17 @@ export default function CaseStudy() {
           between landing a deal versus having the client walk out the door. It makes it "their" experience 
           rather than your own.
         </p>
-        <p className="text-sm text-slate-500 text-justify leading-8">
+        <p className="text-sm text-slate-500 text-justify leading-6 lg:leading-8">
           While branding isn't necessarily used and/or useful for every application -- I believe a great 
           deal of applications can benefit from basic branding. After all, "branding" is just another way 
           of saying "personalization"...and who doesn't like to personalize an application to their tastes. 
           That being said -- with branding an application comes architectural challenges -- however, with 
           the right tools its as simple as 1...2...waffle.
         </p>
-        <p className="text-sm text-slate-500 text-justify leading-8">
+        <p className="text-sm text-slate-500 text-justify leading-6 lg:leading-8">
           Some thoughts and a quick disclaimer,
         </p>
-        <ol className="text-sm text-slate-500 text-justify list-decimal pl-8 space-y-4 leading-8">
+        <ol className="text-sm text-slate-500 text-justify list-decimal pl-8 space-y-4 leading-6 lg:leading-8">
           <li>
             This may not be the best way of doing things. It is more of an open discussion in 
             terms of the best way to brand an application. The one thing I do know -- this works....
@@ -83,7 +83,7 @@ export default function CaseStudy() {
       {/* Section - Setup */}
       <div className="text-center space-y-16 mx-auto">
         <h2 className="text-xl text-slate-600 font-bold text-center">Setting Everything Up</h2>
-        <p className="text-sm text-slate-500 text-justify leading-8">
+        <p className="text-sm text-slate-500 text-justify leading-6 lg:leading-8">
           This article is going to use some tools in specific in order to accomplish the 
           branding goals. This article only focuses on the use of three tools to accomplish 
           branding in a very simple, logical way. Im sure there are a ton of different 
@@ -127,11 +127,11 @@ export default function CaseStudy() {
       {/* Section - Diving In */}
       <div className="text-center space-y-8 mx-auto">
         <h2 className="text-xl text-slate-600 font-bold text-center">Diving In</h2>
-        <p className="text-sm text-slate-500 text-justify leading-8">
+        <p className="text-sm text-slate-500 text-justify leading-6 lg:leading-8">
           The basis for running an application in angular through a branding configuration is 
           simple and follows only a few steps,
         </p>
-        <ol className="text-sm text-slate-500 text-justify list-decimal pl-8 space-y-4 leading-8">
+        <ol className="text-sm text-slate-500 text-justify list-decimal pl-8 space-y-4 leading-6 lg:leading-8">
           <li>
             Inherit a data structure which is parsible by the application (most likely JSON), 
             and expose this to the different parts of the application in order to use it throughout.
@@ -144,7 +144,7 @@ export default function CaseStudy() {
             Use the md-theme attribute on different custom elements to implement personalized branding
           </li>
         </ol>
-        <p className="text-sm text-slate-500 text-justify leading-8">
+        <p className="text-sm text-slate-500 text-justify leading-6 lg:leading-8">
           Seems pretty simple & logical right? So what the heck does this look like?
         </p>
       </div>
@@ -156,7 +156,7 @@ export default function CaseStudy() {
       <div className="text-center space-y-16 mx-auto">
         <h2 className="text-xl text-slate-600 font-bold text-center">Example Code</h2>
         <CodeBlock code={configurationCode} language="javascript" />
-        <p className="text-sm text-slate-500 text-justify leading-8">
+        <p className="text-sm text-slate-500 text-justify leading-6 lg:leading-8">
           Pretty simple, eh? Nothing too special...just a static file which can be shared/injected 
           into the application space. Now how does this get exposed to the AngularJS application, 
           and furthermore how does the application ingest the global object and configure the 
@@ -174,12 +174,12 @@ export default function CaseStudy() {
       </div>
 
       <div className="text-center space-y-8 mx-auto">
-        <p className="text-sm text-slate-500 text-justify leading-8">
+        <p className="text-sm text-slate-500 text-justify leading-6 lg:leading-8">
           So the above pretty much sums up everything you need in order to brand an 
           application. Not so difficult right? Theres a couple of gotchas here 
           that I will need to explain --
         </p>
-        <ol className="text-sm text-slate-500 text-justify list-decimal pl-8 space-y-4 leading-8">
+        <ol className="text-sm text-slate-500 text-justify list-decimal pl-8 space-y-4 leading-6 lg:leading-8">
           <li>
             You will notice that I am using 4 colors (primary, secondary, success, failure). 
             This can be extended to however many you want. It does not matter. 10....15....9999999999, 
@@ -198,10 +198,10 @@ export default function CaseStudy() {
             application (regardless the implementation is still the same).
           </li>
         </ol>
-        <p className="text-sm text-slate-500 text-justify leading-8">
+        <p className="text-sm text-slate-500 text-justify leading-6 lg:leading-8">
           So with that all said and done, what do we have?
         </p>
-        <ol className="text-sm text-slate-500 text-justify list-decimal pl-8 space-y-4 leading-8">
+        <ol className="text-sm text-slate-500 text-justify list-decimal pl-8 space-y-4 leading-6 lg:leading-8">
           <li>A config driven application</li>
           <li>A generic branding palette that can be expanded upon</li>
           <li>A branding variable exposed to all views through the $rootScope</li>
@@ -223,7 +223,7 @@ export default function CaseStudy() {
       {/* Section - Custom Elements */}
       <div className="text-center space-y-16 mx-auto">
         <h2 className="text-xl text-slate-600 font-bold text-center">Extending for Custom Components</h2>
-        <p className="text-sm text-slate-500 text-justify leading-8">
+        <p className="text-sm text-slate-500 text-justify leading-6 lg:leading-8">
           There are various ways to extend the ngMaterial "mindset" into our own application -- 
           and one of them is through the use of custom directives. The idea here is that we 
           create our own custom directives for whatever elements we want to "brand". 

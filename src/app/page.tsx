@@ -21,16 +21,16 @@ export default function Home() {
       </div>
 
       {/* Tailwind Callout */}
-      <div className="rounded-lg border border-slate-200 p-8 shadow-lg shadow-slate-100 flex items-start lg:space-x-8">
+      <div className="rounded-lg border border-slate-200 p-6 lg:p-8 shadow-lg shadow-slate-100 flex items-start lg:space-x-8">
         <div className="text-4xl flex-none hidden lg:block">👋</div>
         <div className="flex-auto flex-col mx-auto space-y-4">
           <div className="flex items-center">
-            <h5 className="flex-auto text-md lg:text-lg text-slate-600 font-bold">Adam, Robin, and the Tailwind crew,</h5>
+            <h5 className="flex-auto text-sm lg:text-lg text-slate-600 font-bold">Adam, Robin, and the Tailwind crew,</h5>
             <p className="flex-none text-right text-sm text-slate-400 font-bold hidden lg:block">
               {formattedDate}
             </p>
           </div>
-          <p className="text-justify text-sm text-slate-500 leading-8">
+          <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
             If you're reading this, I appreciate the consideration for both positions currently
             open &mdash; Design Engineer & Staff Engineer. I applied to both positions as I feel
             I have the necessary skills and proficiencies to contribute immediately and make a lasting impact
@@ -38,18 +38,18 @@ export default function Home() {
             of development, so I feel that I would be a great fit...especially since were all obsessed with
             quality software.
           </p>
-          <p className="text-justify text-sm text-slate-500 leading-8">
+          <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
             This application was originally written to apply for these positions, but has turned into a 
             complete portfolio. I hope you have the opportunity to poke around. This site was written 
             in Next.JS, React, Tailwind and hosted through AWS Amplify.
           </p>
-          <p className="text-justify text-sm text-slate-500 leading-8">
+          <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
             All of the information that was requested as part of the application can be found in this
             site (and a whole lot more). Additionally, I took the initiative to write a small case
             study on the exploration and implementation of the text-shadow property. 
             <Link className="text-purple-700 font-semibold" href="/case-studies/implementing-tailwindcss-text-shadow"> Check it out.</Link>
           </p>
-          <p className="text-justify text-sm text-slate-500 leading-8">
+          <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
             If you have any questions, feedback, or just want to chat about cool stuff &mdash; 
             shoot me an email and I will get back with you as quickly as possible. I look forward
             to hearing from y'all and appreciate y'all!
@@ -63,17 +63,17 @@ export default function Home() {
       {/* Section - About Me */}
       <div className="flex-col mx-auto space-y-4">
         <h2 className="text-xl text-slate-600 font-bold text-center">A Little Bit About Me</h2>
-        <p className="text-justify text-sm text-slate-500 leading-8">
+        <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
           Back in 2000 I migrated south with my family from Mississauga, Ontario to
           Dallas, Texas. Luckily, I am able to go back quite frequently and visit family and
           friends. The transition for me was a little weird; using the word "y'all" never felt
           right &mdash; especially when mixing it with "eh". The combination makes for fun discussions
           wherever I am.
         </p>
-        <p className="text-justify text-sm text-slate-500 leading-8">
+        <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
           Besides being a parent of two kids, I have quite a few hobbies,
         </p>
-        <ul className="text-sm text-slate-500 text-justify list-disc pl-8 space-y-4 leading-8">
+        <ul className="text-sm text-slate-500 text-justify list-disc lg:pl-8 space-y-4 leading-6 lg:leading-8">
           <li>
             I am an avid learner, writer and teacher. Reading about languages or history (specifically war
             history) is a constant endeavour and helps me understand more about the world. Teaching and writing
@@ -110,7 +110,7 @@ export default function Home() {
       {/* Section - About Otternaut */}
       <div className="flex-col mx-auto space-y-4">
         <h2 className="text-xl text-slate-600 font-bold text-center">What is Otternaut?</h2>
-        <p className="text-justify text-sm text-slate-500 leading-8">
+        <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
           Otternaut was formed in 2020 due to needing better insurance and resources
           for our NICU son Ollie whom was born at 24 weeks. 4 years later he is thriving,
           but this changed forced me to go out on my own and establish a business for myself; and thus,
@@ -120,7 +120,7 @@ export default function Home() {
           both for myself, and my family. The opportunity to selectively pick projects has allowed
           my skillset to grow and allowed for personal growth as a software developer.
         </p>
-        <p className="text-justify text-sm text-slate-500 leading-8">
+        <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
           Otternaut specializes in end-to-end software development on highly diverse projects and 
           industries including MLM, Cryptocurrency, Telecommunications, Mining, Service Integrations and more. 
           We are constantly providing top tier experience and expertise to solve our clients 

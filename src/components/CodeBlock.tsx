@@ -10,7 +10,7 @@ export default function CodeBlock({
   language: string;
 }>) {
   return (
-    <div className="text-left text-xs rounded-lg overflow-hidden tracking-wide leading-8 rounded-lg border border-slate-200 p-4 shadow-lg shadow-slate-100">
+    <div className="text-left text-xs rounded-lg overflow-hidden tracking-wide leading-6 lg:leading-8 rounded-lg border border-slate-200 p-4 shadow-lg shadow-slate-100">
       <ReactCodeBlock.CodeBlock
         text={code}
         language={language}
