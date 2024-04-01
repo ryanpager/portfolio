@@ -245,7 +245,7 @@ export default function Projects() {
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">AWS</div>
           </div>
           <p className="text-justify text-sm text-slate-500 leading-8">
-            BenchApp is a sport team (specifically Hockey) management software that allows for
+            BenchApp is a sport team (with over 10+ different sports) management software that allows for
             captains or coordinators to set lineups, send out notifications, etc. I was brought
             in to optimize and scale the software -- which ended in a result 99% uptime as massively
             improved page load times. Since this was a legacy application, improvements ranged
