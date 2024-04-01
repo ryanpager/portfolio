@@ -7,7 +7,7 @@ import "@/styles/globals.css";
 // Components
 import Navigation from '@/components/Navigation';
 // Icons
-import { EllipsisVerticalIcon, XMarkIcon } from '@heroicons/react/24/solid';
+import { Bars2Icon, XMarkIcon } from '@heroicons/react/24/solid';
 
 const fontFamily = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
@@ -40,15 +40,15 @@ export default function RootLayout({
         >
           <button
             onClick={(e) => toggleMobileMenu(e as any)} 
-            className="inline-block text-center w-7 h-7 rounded-full fixed top-2 left-1">
+            className="inline-block text-center w-7 h-7 rounded-full fixed top-2 right-2">
             {!isMobileMenuOpen && (
-              <EllipsisVerticalIcon className="mx-auto flex-none text-slate-800 h-7 w-7" />
+              <Bars2Icon className="mx-auto flex-none text-slate-800 h-7 w-7" />
             )}
             {isMobileMenuOpen && (
               <XMarkIcon className="mx-auto flex-none text-slate-800 h-7 w-7" />
             )}
           </button>
-          <div className={`-mt-7 pt-8 pb-8 pl-9 transition-all duration-300 ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full opacity-0'}`}>
+          <div className={`-mt-7 pt-8 pb-8 pl-2 transition-all duration-300 ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full opacity-0'}`}>
             <Navigation />
           </div>
         </div>
