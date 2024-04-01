@@ -20,6 +20,9 @@ export default function Home() {
         <h1 className="text-4xl text-slate-800 font-bold">Hi, I'm Ryan.</h1>
       </div>
 
+      {/* Divider */}
+      <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
+
       {/* Tailwind Callout */}
       <div className="rounded-lg border border-slate-200 p-6 lg:p-8 shadow-lg shadow-slate-100 flex items-start lg:space-x-8">
         <div className="text-4xl flex-none hidden lg:block">👋</div>
@@ -62,7 +65,7 @@ export default function Home() {
 
       {/* Section - About Me */}
       <div className="flex-col mx-auto space-y-4">
-        <h2 className="text-xl text-slate-600 font-bold text-center">A Little Bit About Me</h2>
+        <h2 className="lg:text-xl text-slate-600 font-bold text-center">A Little Bit About Me</h2>
         <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
           Back in 2000 I migrated south with my family from Mississauga, Ontario to
           Dallas, Texas. Luckily, I am able to go back quite frequently and visit family and
@@ -109,7 +112,7 @@ export default function Home() {
 
       {/* Section - About Otternaut */}
       <div className="flex-col mx-auto space-y-4">
-        <h2 className="text-xl text-slate-600 font-bold text-center">What is Otternaut?</h2>
+        <h2 className="lg:text-xl text-slate-600 font-bold text-center">What is Otternaut?</h2>
         <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
           Otternaut was formed in 2020 due to needing better insurance and resources
           for our NICU son Ollie whom was born at 24 weeks. 4 years later he is thriving,
