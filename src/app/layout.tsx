@@ -25,14 +25,14 @@ export default function RootLayout({
         {/* Mobile Navigation Trigger */}
         <div 
           className={`
-            fixed top-0 left-0 z-10 w-full px-2 py-2 lg:hidden
+            fixed top-0 left-0 z-10 w-full px-1 py-2 lg:hidden
             ${isMobileMenuOpen ? 'bg-white border-b border-slate-500/20 shadow-lg shadow-slate-200' : ''}
           `}
           onClick={(e) => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
           <button
             onClick={(e) => setIsMobileMenuOpen(!isMobileMenuOpen)} 
-            className="inline-block text-center w-7 h-7 rounded-full bg-slate-100">
+            className="inline-block text-center w-7 h-7 rounded-full">
             {!isMobileMenuOpen && (
               <EllipsisVerticalIcon className="mx-auto flex-none text-slate-600 h-5 w-5" />
             )}
@@ -45,7 +45,7 @@ export default function RootLayout({
           </div>
         </div>
 
-        <div className="mx-auto w-full lg:max-w-screen-xl py-8 pt-24 px-8 lg:px-0 lg:py-24">
+        <div className="mx-auto w-full lg:max-w-screen-xl py-8 pt-12 px-8 lg:px-0 lg:py-24">
           <div className="flex lg:space-x-8 ">
             <div className="flex-none w-1/4 hidden lg:block">
               <Navigation />
