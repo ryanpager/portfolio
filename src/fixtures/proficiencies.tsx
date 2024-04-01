@@ -40,11 +40,23 @@ export const frameworks = [
   { type: 'xamarin', level: 7 },
 ]
 
+export const databases = [
+  { type: 'mysql', level: 9 },
+  { type: 'postgresql', level: 9},
+  { type: 'microsoft sql server', level: 6 },
+  { type: 'redis', level: 9 },
+  { type: 'dynamodb', level: 8 },
+  { type: 'mongodb', level: 6 },
+]
+
 export const projectManagement = [
   { type: 'jira', level: 8 },
   { type: 'trello', level: 10 },
   { type: 'notion', level: 7 },
   { type: 'figma', level: 6 },
+  { type: 'sketch', level: 8 },
+  { type: 'photoshop', level: 7 },
+  { type: 'illustrator', level: 6 },
   { type: 'slack', level: 10 },
   { type: 'discordjs', level: 8 },
 ]

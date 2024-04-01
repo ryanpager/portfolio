@@ -61,6 +61,23 @@ export default function Proficiencies() {
       {/* Divider */}
       <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
 
+      {/* Languages - Proficiencies Grid */}
+      <div className="text-center">
+        <h2 className="text-2xl text-slate-600 font-bold">Data Storage</h2>
+        <p className="mx-auto text-sm text-slate-500 max-w-prose text-center leading-8 mt-4">
+          Databases and in-memory stores that I have used extensively to provide better
+          performance for high intensity applications.
+        </p>
+      </div>
+      <div className="grid md:grid-cols-3 gap-8">
+        {ProficienciesFixture.databases.map((proficiency: Proficiency) => {
+          return <ProficiencyCard key={proficiency.type} icon={proficiency.type} skillLevel={proficiency.level} />
+        })}
+      </div>
+
+      {/* Divider */}
+      <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
+
       {/* Frameworks - Proficiencies Grid */}
       <div className="text-center">
         <h2 className="text-2xl text-slate-600 font-bold">Frameworks</h2>
@@ -81,7 +98,7 @@ export default function Proficiencies() {
 
       {/* Project Management - Proficiencies Grid */}
       <div className="text-center">
-        <h2 className="text-2xl text-slate-600 font-bold">Project Management</h2>
+        <h2 className="text-2xl text-slate-600 font-bold">Project Management & Tools</h2>
         <p className="mx-auto text-sm text-slate-500 max-w-prose text-center leading-8 mt-4">
           The following are the tools that I use to stay organized, and manage
           projects from inception to completion. Different projects call for different

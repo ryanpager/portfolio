@@ -17,7 +17,7 @@ export default function ProficiencyCard({
   let iconType = '-original'
   if (['rails', 'amazonwebservices'].includes(iconSlug)) {
     iconType = iconType + '-wordmark'
-  } else if (['django', 'circleci'].includes(iconSlug)) {
+  } else if (['django', 'circleci', 'illustrator'].includes(iconSlug)) {
     iconType = '-plain'
   }
 

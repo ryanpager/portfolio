@@ -134,10 +134,10 @@ export default function Navigation() {
         {/* Anchors & Links */}
         <div className="flex-col space-y-4 pt-4">
           <Link className={getNavigationClasses(URL.AboutMe)} href={URL.AboutMe}>
-            <p>Foreword</p>
+            <p>About Me</p>
           </Link>
           <Link className={getNavigationClasses(URL.Projects)} href={URL.Projects}>
-            <p>Current Projects</p>
+            <p>Projects</p>
           </Link>
           <Link className={getNavigationClasses(URL.Principles)} href={URL.Principles}>
             <p>Development Principles</p>
