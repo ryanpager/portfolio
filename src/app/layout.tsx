@@ -48,7 +48,7 @@ export default function RootLayout({
               <XMarkIcon className="mx-auto flex-none text-slate-800 h-7 w-7" />
             )}
           </button>
-          <div className={`-mt-7 pt-8 pb-8 pl-2 transition-all duration-300 ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full opacity-0'}`}>
+          <div className={`-mt-7 pt-8 pl-2 transition-all duration-300 ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full opacity-0'}`}>
             <Navigation />
           </div>
         </div>
