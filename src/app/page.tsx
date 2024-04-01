@@ -21,12 +21,12 @@ export default function Home() {
       </div>
 
       {/* Tailwind Callout */}
-      <div className="rounded-lg border border-slate-200 p-8 shadow-lg shadow-slate-100 flex items-start space-x-8">
-        <div className="text-4xl flex-none">👋</div>
+      <div className="rounded-lg border border-slate-200 p-8 shadow-lg shadow-slate-100 flex items-start lg:space-x-8">
+        <div className="text-4xl flex-none hidden lg:block">👋</div>
         <div className="flex-auto flex-col mx-auto space-y-4">
           <div className="flex items-center">
-            <h5 className="flex-auto text-lg text-slate-600 font-bold">Adam, Robin, and the Tailwind crew,</h5>
-            <p className="flex-none text-right text-sm text-slate-400 font-bold">
+            <h5 className="flex-auto text-md lg:text-lg text-slate-600 font-bold">Adam, Robin, and the Tailwind crew,</h5>
+            <p className="flex-none text-right text-sm text-slate-400 font-bold hidden lg:block">
               {formattedDate}
             </p>
           </div>

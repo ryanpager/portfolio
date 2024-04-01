@@ -26,11 +26,11 @@ export default function Projects() {
       <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Project - Esprezzo */}
-      <div className="flex items-start mx-auto space-x-8">
+      <div className="flex flex-wrap lg:flex-nowrap items-start mx-auto text-center lg:space-x-8 lg:text-left">
         <Image
           src="/project-icons/esprezzo.png"
           alt="Go faster with Esprezzo Dispatch. Build & automate workflows, monitor smart contract & wallet activity and stream Web3 data — no code required."
-          className="flex-none"
+          className="flex-none mb-4 mx-auto lg:mx-0"
           width={64}
           height={64}
           priority
@@ -87,11 +87,11 @@ export default function Projects() {
       <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Project - QuiAri */}
-      <div className="flex items-start mx-auto space-x-8">
+      <div className="flex flex-wrap lg:flex-nowrap items-start mx-auto text-center lg:space-x-8 lg:text-left">
         <Image
           src="/project-icons/quiari.svg"
           alt="QuiAri, new wellness products, superfruits, energy supplements, weight loss products, health and wellness, number 1 superfruit."
-          className="flex-none"
+          className="flex-none mb-12 mx-auto lg:mx-0"
           width={64}
           height={64}
           priority
@@ -104,13 +104,12 @@ export default function Projects() {
             target="_blank">
             https://quiari.com/
           </Link>
-          <div className="flex space-x-2 pt-4 text-xs text-white font-medium tracking-wider">
+          <div className="flex flex-wrap space-x-2 pt-4 text-xs text-white font-medium tracking-wider">
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">Elixir</div>
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">Typescript</div>
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">React</div>
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">Tailwind</div>
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">PostgreSQL</div>
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">Redis</div>
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">RabbitMQ</div>
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">AWS</div>
           </div>
@@ -159,11 +158,11 @@ export default function Projects() {
       <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Project - VRIFY */}
-      <div className="flex items-start mx-auto space-x-8">
+      <div className="flex flex-wrap lg:flex-nowrap items-start mx-auto text-center lg:space-x-8 lg:text-left">
         <Image
           src="/project-icons/vrify.svg"
           alt="Redefine your communication by turning flat, 2D stories into compelling, immersive 3D narratives with VRIFY. Engage investors with interactive 360° presentations &amp; meetings, showcasing a project&#x27;s true depth and potential."
-          className="flex-none"
+          className="flex-none mb-12 mx-auto lg:mx-0"
           width={64}
           height={64}
           priority
@@ -218,11 +217,11 @@ export default function Projects() {
       <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Project - BenchApp */}
-      <div className="flex items-start mx-auto space-x-8">
+      <div className="flex flex-wrap lg:flex-nowrap items-start mx-auto text-center lg:space-x-8 lg:text-left">
         <Image
           src="/project-icons/benchapp.webp"
           alt="The best in team management. Keep your teams and players organized from home, the office, or on the road. From your computer, tablet or smart phone."
-          className="flex-none relative -top-3"
+          className="flex-none lg:relative lg:-top-3 mb-4 mx-auto lg:mx-0"
           width={64}
           height={64}
           priority
