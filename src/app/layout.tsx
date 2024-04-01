@@ -30,14 +30,16 @@ export default function RootLayout({
           `}
           onClick={(e) => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
-          <div className="flex-col content-center text-center w-7 h-7 rounded-full bg-slate-100">
+          <button
+            onClick={(e) => setIsMobileMenuOpen(!isMobileMenuOpen)} 
+            className="inline-block text-center w-7 h-7 rounded-full bg-slate-100">
             {!isMobileMenuOpen && (
-              <EllipsisVerticalIcon className="mx-auto flex-none text-slate-600 h-5 w-5" onClick={(e) => setIsMobileMenuOpen(true)} />
+              <EllipsisVerticalIcon className="mx-auto flex-none text-slate-600 h-5 w-5" />
             )}
             {isMobileMenuOpen && (
-              <XMarkIcon className="mx-auto flex-none text-slate-600 h-5 w-5" onClick={(e) => setIsMobileMenuOpen(false)} />
+              <XMarkIcon className="mx-auto flex-none text-slate-600 h-5 w-5" />
             )}
-          </div>
+          </button>
           <div className={`-mt-6 pb-4 pl-10 ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
             <Navigation />
           </div>
