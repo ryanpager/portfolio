@@ -26,7 +26,7 @@ export default function Projects() {
       <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Project - Esprezzo */}
-      <div className="flex flex-wrap lg:flex-nowrap items-start mx-auto text-center lg:space-x-8 lg:text-left">
+      <div className="flex flex-wrap flex flex-wrap lg:flex-nowrap items-start mx-auto text-center lg:space-x-8 lg:text-left">
         <Image
           src="/project-icons/esprezzo.png"
           alt="Go faster with Esprezzo Dispatch. Build & automate workflows, monitor smart contract & wallet activity and stream Web3 data — no code required."
@@ -43,7 +43,7 @@ export default function Projects() {
             target="_blank">
             https://esprezzo.io/
           </Link>
-          <div className="flex space-x-2 pt-4 text-xs text-white font-medium tracking-wider">
+          <div className="flex flex-wrap gap-2 pt-4 text-xs text-white font-medium tracking-wider">
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">Elixir</div>
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">Rust</div>
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">RabbitMQ</div>
@@ -63,7 +63,7 @@ export default function Projects() {
           <p className="text-justify text-sm text-slate-500 leading-8">
             Some of my responsibilities at Esprezzo include,
           </p>
-          <ol className="text-sm text-slate-500 text-justify list-decimal pl-8 space-y-4 leading-8">
+          <ol className="text-sm text-slate-500 text-justify list-decimal lg:pl-8 space-y-4 leading-8">
             <li>
               Implement a dynamic queue system which handles millions of messages in real-time. The
               queue system will process these messages based on certain criteria provided by the end
@@ -104,7 +104,7 @@ export default function Projects() {
             target="_blank">
             https://quiari.com/
           </Link>
-          <div className="flex flex-wrap space-x-2 pt-4 text-xs text-white font-medium tracking-wider">
+          <div className="flex flex-wrap gap-2 pt-4 text-xs text-white font-medium tracking-wider">
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">Elixir</div>
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">Typescript</div>
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">React</div>
@@ -133,7 +133,7 @@ export default function Projects() {
           <p className="text-justify text-sm text-slate-500 leading-8">
             Some of my responsibilities at Quiari include,
           </p>
-          <ol className="text-sm text-slate-500 text-justify list-decimal pl-8 space-y-4 leading-8">
+          <ol className="text-sm text-slate-500 text-justify list-decimal lg:pl-8 space-y-4 leading-8">
             <li>
               Implement a dynamic queue system which handles millions of orders in real-time. The
               queue system will process these messages and route them to the correct 3PL (shipping & handling)
@@ -175,7 +175,7 @@ export default function Projects() {
             target="_blank">
             https://vrify.com/
           </Link>
-          <div className="flex space-x-2 pt-4 text-xs text-white font-semibold tracking-wider">
+          <div className="flex flex-wrap gap-2 pt-4 text-xs text-white font-medium tracking-wider">
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">Elixir</div>
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">Python</div>
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">VueJS</div>
@@ -193,7 +193,7 @@ export default function Projects() {
           <p className="text-justify text-sm text-slate-500 leading-8">
             Some of my responsibilities at VRIFY were,
           </p>
-          <ol className="text-sm text-slate-500 text-justify list-decimal pl-8 space-y-4 leading-8">
+          <ol className="text-sm text-slate-500 text-justify list-decimal lg:pl-8 space-y-4 leading-8">
             <li>
               Create a websocket engine through Elixir that will serve the live meetings platform. This
               microservice must be scalable and interact with the Django Rest API, and be bullet-proof
@@ -234,7 +234,7 @@ export default function Projects() {
             target="_blank">
             https://benchapp.com/
           </Link>
-          <div className="flex space-x-2 pt-4 text-xs text-white font-semibold tracking-wider">
+          <div className="flex flex-wrap gap-2 pt-4 text-xs text-white font-medium tracking-wider">
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">Typescript</div>
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">MySQL</div>
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">PHP</div>
@@ -254,7 +254,7 @@ export default function Projects() {
           <p className="text-justify text-sm text-slate-500 leading-8">
             Some of my responsibilities at BenchApp were,
           </p>
-          <ol className="text-sm text-slate-500 text-justify list-decimal pl-8 space-y-4 leading-8">
+          <ol className="text-sm text-slate-500 text-justify list-decimal lg:pl-8 space-y-4 leading-8">
             <li>
               Implement and design a migration from DigitalOcean to AWS to provide a more
               stable platform with better performance and better developer experience. Containers
