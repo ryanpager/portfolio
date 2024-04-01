@@ -1,5 +1,4 @@
-'use client';
-
+import type { Metadata } from "next";
 import Link from 'next/link';
 // components
 import CodeBlock from '@/components/CodeBlock';
@@ -8,6 +7,12 @@ import { idealClassCode } from '@/fixtures/text-shadow-implementation/ideal-clas
 import { solutionOneCode } from '@/fixtures/text-shadow-implementation/solution-one';
 import { solutionTwoCode } from '@/fixtures/text-shadow-implementation/solution-two';
 import { usageExampleCode } from '@/fixtures/text-shadow-implementation/usage-example';
+
+// Metadata
+export const metadata: Metadata = {
+  title: "Ryan Page · Case Study · Implementing Text Shadow",
+  description: "A brief investigation and examination on text shadow implementation",
+};
 
 export default function CaseStudy() {
   return (

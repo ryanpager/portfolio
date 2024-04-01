@@ -1,5 +1,4 @@
-'use client';
-
+import type { Metadata } from "next";
 import Link from "next/link";
 // components
 import CodeBlock from '@/components/CodeBlock';
@@ -9,13 +8,19 @@ import { angularModuleCode } from '@/fixtures/runtime-branding/angular-module'
 import { usageCode } from '@/fixtures/runtime-branding/usage'
 import { customComponentsCode } from '@/fixtures/runtime-branding/custom-components'
 
+// Metadata
+export const metadata: Metadata = {
+  title: "Ryan Page · Case Study · Angular Runtime Branding",
+  description: "Branding for custom applications at runtime using AngularJS",
+};
+
 export default function CaseStudy() {
   return (
     <div className="flex-col space-y-16">
       {/* Section Header */}
       <div className="flex-col text-center">
         <h1 className="text-4xl text-slate-800 font-bold">
-          Practical Runtime Branding
+          AngularJS Runtime Branding
         </h1>
         <p className="mx-auto text-lg font-semibold text-slate-500 max-w-prose text-center leading-8 mt-4">
           Fun with AngularJS, ngMaterial, and Cordova (or Ionic)

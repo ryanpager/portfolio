@@ -1,3 +1,11 @@
+import type { Metadata } from "next";
+
+// Metadata
+export const metadata: Metadata = {
+  title: "Ryan Page",
+  description: "A little bit of madness, a lot of coffee and a whole lot of fun.",
+};
+
 export default function Home() {
   return (
     <div className="flex-col space-y-16">

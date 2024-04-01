@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import Image from "next/image";
+
+// Metadata
+export const metadata: Metadata = {
+  title: "Ryan Page · Development Principles",
+  description: "My philosophy for development and teamwork explained.",
+};
 
 export default function Principles() {
   return (

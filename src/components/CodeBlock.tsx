@@ -1,3 +1,5 @@
+'use client';
+
 import * as ReactCodeBlock from 'react-code-blocks';
 
 export default function CodeBlock({

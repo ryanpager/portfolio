@@ -1,7 +1,14 @@
+import type { Metadata } from "next";
 // components
 import ProficiencyCard from '@/components/ProficiencyCard';
 // fixtures
 import * as ProficienciesFixture from "@/fixtures/proficiencies";
+
+// Metadata
+export const metadata: Metadata = {
+  title: "Ryan Page · Skills · Proficiencies",
+  description: "All of the tooling and knowledge I've learned over the years.",
+};
 
 type Proficiency = {
   type: string;

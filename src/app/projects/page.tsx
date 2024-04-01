@@ -1,5 +1,12 @@
+import type { Metadata } from "next";
 import Link from 'next/link';
 import Image from "next/image";
+
+// Metadata
+export const metadata: Metadata = {
+  title: "Ryan Page · Project History",
+  description: "Current, future and past projects Ryan has worked on.",
+};
 
 export default function Projects() {
   return (
