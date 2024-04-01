@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${fontFamily.className} bg-white`}>
-        <div className="mx-auto w-full lg:max-w-screen-xl py-24 px-4 lg:p-0">
+        <div className="mx-auto w-full lg:max-w-screen-xl py-8 px-4 lg:px-0 lg:py-24">
           <div className="flex lg:space-x-8 ">
             <div className="flex-none w-1/4 hidden lg:block">
               <Navigation />

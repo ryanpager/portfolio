@@ -13,7 +13,7 @@ export default function Projects() {
     <div className="flex-col space-y-16">
       {/* Section Header */}
       <div className="flex-col text-center">
-        <h1 className="text-4xl text-slate-800 font-bold">Projects History</h1>
+        <h1 className="text-4xl text-slate-800 font-bold">Projects</h1>
         <p className="mx-auto text-sm text-slate-500 max-w-prose text-center leading-8 mt-4">
           Listed are all of the projects I have personally written, contributed to, advised on, or 
           have accomplished in the past few years. While the projects are all across the board in
