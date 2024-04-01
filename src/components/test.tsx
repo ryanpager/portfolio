@@ -25,6 +25,7 @@ enum CaseStudyURL {
 }
 
 export default function Navigation() {
+  // Use the pathname provider for setting state on navigation.
   const pathname = usePathname()
 
   /**
