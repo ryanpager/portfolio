@@ -25,17 +25,17 @@ export default function RootLayout({
         {/* Mobile Navigation Trigger */}
         <div 
           className={`
-            fixed top-0 left-0 z-10 w-full px-2 py-4 lg:hidden
+            fixed top-0 left-0 z-10 w-full px-2 py-2 lg:hidden
             ${isMobileMenuOpen ? 'bg-white border-b border-slate-500/20 shadow-lg shadow-slate-200' : ''}
           `}
           onClick={(e) => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
-          <div className="flex items-center">
+          <div className="flex-col content-center text-center w-7 h-7 rounded-full bg-slate-100">
             {!isMobileMenuOpen && (
-              <EllipsisVerticalIcon className="flex-none text-slate-600 h-6 w-6" onClick={(e) => setIsMobileMenuOpen(true)} />
+              <EllipsisVerticalIcon className="mx-auto flex-none text-slate-600 h-5 w-5" onClick={(e) => setIsMobileMenuOpen(true)} />
             )}
             {isMobileMenuOpen && (
-              <XMarkIcon className="flex-none text-slate-600 h-6 w-6" onClick={(e) => setIsMobileMenuOpen(false)} />
+              <XMarkIcon className="mx-auto flex-none text-slate-600 h-5 w-5" onClick={(e) => setIsMobileMenuOpen(false)} />
             )}
           </div>
           <div className={`-mt-6 pb-4 pl-10 ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
