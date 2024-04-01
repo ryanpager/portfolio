@@ -77,7 +77,7 @@ export default function Navigation() {
       <img
         src="/profile-picture.jpeg"
         alt="Ryan and Ollie on the beach"
-        className="w-16 h-16 lg:w-48 lg:h-48 rounded-lg shadow-lg shadow-slate-100"
+        className="w-24 h-24 lg:w-48 lg:h-48 rounded-lg shadow-lg shadow-slate-100"
       />
       {/* Name & Tag Line */}
       <div className="flex-col space-y-1 lg:mt-0">
