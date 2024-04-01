@@ -23,13 +23,13 @@ export default function Principles() {
       <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Section - Quality Obsessed */}
-      <div className="flex items-start space-x-16">
+      <div className="flex items-start space-x-24">
         <Image
           src="/illustrations/quality-obsessed.svg"
           alt="Obsessed with quality to a fault."
           className="flex-none"
-          width={320}
-          height={320}
+          width={256}
+          height={256}
           priority
         />
         <div className="flex-auto space-y-8 -mt-2">
@@ -55,7 +55,7 @@ export default function Principles() {
       <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Section - Never Give Up */}
-      <div className="flex items-start space-x-16">
+      <div className="flex items-start space-x-24">
         <div className="flex-auto space-y-8 -mt-2">
           <h3 className="text-xl text-slate-600 font-bold text-left">Never Give Up, Never Surrender</h3>
           <p className="text-justify text-sm text-slate-500 leading-8">
@@ -77,8 +77,8 @@ export default function Principles() {
           src="/illustrations/never-give-up.svg"
           alt="No problem is too difficult, and I will never give up."
           className="flex-none"
-          width={320}
-          height={320}
+          width={256}
+          height={256}
           priority
         />
       </div>
@@ -87,13 +87,13 @@ export default function Principles() {
       <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Section - Teaching & Learning */}
-      <div className="flex items-start space-x-16">
+      <div className="flex items-start space-x-24">
         <Image
           src="/illustrations/teaching-and-learning.svg"
           alt="Everything is either a teachable moment, or a chance to gain knowledge."
           className="flex-none"
-          width={320}
-          height={320}
+          width={256}
+          height={256}
           priority
         />
         <div className="flex-auto space-y-8 -mt-2">
@@ -118,9 +118,9 @@ export default function Principles() {
       <div className="bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Section - Teamwork */}
-      <div className="flex items-start space-x-16">
+      <div className="flex items-start space-x-24">
         <div className="flex-auto space-y-8 -mt-2">
-          <h3 className="text-xl text-slate-600 font-bold text-right">Teamwork Makes the Dream Work</h3>
+          <h3 className="text-xl text-slate-600 font-bold text-left">Teamwork Makes the Dream Work</h3>
           <p className="text-justify text-sm text-slate-500 leading-8">
             In a collaborative environment, ideas flow freely, sparking innovation at every turn. 
             Leveraging the creativity and ingenuity of your teammates to push the boundaries of what&apos;s 
@@ -140,8 +140,8 @@ export default function Principles() {
           src="/illustrations/teamwork-makes-the-dream-work.svg"
           alt="Working solo is great for some, but the real magic happens in teams."
           className="flex-none"
-          width={320}
-          height={320}
+          width={256}
+          height={256}
           priority
         />
       </div>      
