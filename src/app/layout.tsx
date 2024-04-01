@@ -19,16 +19,27 @@ export default function RootLayout({
   // Use as a trigger for opening and closing the mobile menu.
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false)
 
+  /**
+   * Toggles the open/close state of the mobile menu.
+   *
+   * @param e {MouseEvent} - the click event triggered.
+   * @return {void}
+   */
+  function toggleMobileMenu(e: React.MouseEventHandler<HTMLButtonElement>): void {
+    (e as any).preventDefault();
+    setIsMobileMenuOpen(!isMobileMenuOpen)
+  }
+
   return (
     <html lang="en">
       <body className={`${fontFamily.className} ${isMobileMenuOpen ? 'overflow-hidden' : ''} bg-white`}>
         {/* Mobile Navigation Trigger */}
         <div 
           className="fixed top-0 left-0 z-10 w-full h-full px-1 py-2 lg:hidden bg-transparent overflow-y-auto"
-          onClick={(e) => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          onClick={(e) => toggleMobileMenu(e as any)}
         >
           <button
-            onClick={(e) => setIsMobileMenuOpen(!isMobileMenuOpen)} 
+            onClick={(e) => toggleMobileMenu(e as any)} 
             className="inline-block text-center w-7 h-7 rounded-full fixed top-2 left-1">
             {!isMobileMenuOpen && (
               <EllipsisVerticalIcon className="mx-auto flex-none text-slate-800 h-7 w-7" />
