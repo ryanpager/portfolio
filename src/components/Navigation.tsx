@@ -72,23 +72,20 @@ export default function Navigation() {
   }
 
   return (
-    <div className="flex flex-col space-y-8 text-slate-500 lg:fixed lg:top-24">
+    <div className="flex flex-col space-y-4 lg:space-y-8 text-slate-500 lg:fixed lg:top-24">
       {/* Profile Image */}
-      <Image
+      <img
         src="/profile-picture.jpeg"
         alt="Ryan and Ollie on the beach"
-        className="rounded-lg shadow-lg shadow-slate-100"
-        width={160}
-        height={160}
-        priority
+        className="w-16 h-16 lg:w-48 lg:h-48 rounded-lg shadow-lg shadow-slate-100"
       />
       {/* Name & Tag Line */}
-      <div className="flex-col space-y-1">
-        <h1 className="font-semibold text-2xl text-slate-700">Ryan Page</h1>
+      <div className="flex-col space-y-1 lg:mt-0">
+        <h1 className="font-semibold text-lg lg:text-2xl text-slate-700">Ryan Page</h1>
         <p className="font-medium text-xs">Turning coffee into code, one day at a time.</p>
       </div>
       {/* Contact Information */}
-      <div className="flex-col space-y-6 text-xs">
+      <div className="flex-col space-y-6 text-xs pt-4 lg:pt-0">
         <div className="flex items-start space-x-2">
           <div className="flex-none">
             <MapPinIcon className="h-4 w-4 text-purple-700" />
