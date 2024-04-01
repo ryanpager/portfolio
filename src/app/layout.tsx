@@ -24,10 +24,7 @@ export default function RootLayout({
       <body className={`${fontFamily.className} ${isMobileMenuOpen ? 'overflow-hidden' : ''} bg-white`}>
         {/* Mobile Navigation Trigger */}
         <div 
-          className={`
-            fixed top-0 left-0 z-10 w-full h-full px-1 py-2 lg:hidden
-            ${isMobileMenuOpen ? 'bg-white' : ''}
-          `}
+          className="fixed top-0 left-0 z-10 w-full h-full px-1 py-2 lg:hidden bg-transparent"
           onClick={(e) => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
           <button
@@ -45,7 +42,7 @@ export default function RootLayout({
           </div>
         </div>
 
-        <div className="mx-auto w-full lg:max-w-screen-xl py-8 pt-16 px-8 lg:px-0 lg:py-24">
+        <div className={`mx-auto w-full lg:max-w-screen-xl py-8 pt-16 px-8 lg:px-0 lg:py-24 transition-all duration-300 ${isMobileMenuOpen ? 'blur-lg opacity-10' : ''}`}>
           <div className="flex lg:space-x-8 ">
             <div className="flex-none w-1/4 hidden lg:block">
               <Navigation />

@@ -72,7 +72,7 @@ export default function Navigation() {
   }
 
   return (
-    <div className="flex flex-col bg-white space-y-8 text-slate-500 lg:fixed lg:top-24">
+    <div className="flex flex-col space-y-8 text-slate-500 lg:fixed lg:top-24">
       {/* Profile Image */}
       <Image
         src="/profile-picture.jpeg"
