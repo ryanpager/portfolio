@@ -23,7 +23,7 @@ export default function Principles() {
       <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Section - Quality Obsessed */}
-      <div className="flex items-start space-x-24">
+      <div className="flex items-start space-x-24 max-w-3xl mx-auto">
         <Image
           src="/illustrations/quality-obsessed.svg"
           alt="Obsessed with quality to a fault."
@@ -55,7 +55,7 @@ export default function Principles() {
       <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Section - Never Give Up */}
-      <div className="flex items-start space-x-24">
+      <div className="flex items-start space-x-24 max-w-3xl mx-auto">
         <div className="flex-auto space-y-8 -mt-2">
           <h3 className="text-xl text-slate-600 font-bold text-left">Never Give Up, Never Surrender</h3>
           <p className="text-justify text-sm text-slate-500 leading-8">
@@ -87,7 +87,7 @@ export default function Principles() {
       <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Section - Teaching & Learning */}
-      <div className="flex items-start space-x-24">
+      <div className="flex items-start space-x-24 max-w-3xl mx-auto">
         <Image
           src="/illustrations/teaching-and-learning.svg"
           alt="Everything is either a teachable moment, or a chance to gain knowledge."
@@ -118,7 +118,7 @@ export default function Principles() {
       <div className="bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Section - Teamwork */}
-      <div className="flex items-start space-x-24">
+      <div className="flex items-start space-x-24 max-w-3xl mx-auto">
         <div className="flex-auto space-y-8 -mt-2">
           <h3 className="text-xl text-slate-600 font-bold text-left">Teamwork Makes the Dream Work</h3>
           <p className="text-justify text-sm text-slate-500 leading-8">

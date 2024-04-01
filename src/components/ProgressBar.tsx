@@ -13,9 +13,9 @@ export default function ProgressBar({ value }: ProgressBarProps) {
   const progressValue = {width: `${(value || 0) * 10}%`}
 
   return (
-    <div className="flex w-full h-2 bg-slate-200 rounded-full overflow-hidden" role="progressbar" aria-valuenow={8} aria-valuemin={0} aria-valuemax={10}>
+    <div className="flex w-full h-2 rounded bg-slate-200 overflow-hidden" role="progressbar" aria-valuenow={8} aria-valuemin={0} aria-valuemax={10}>
       <div 
-        className="flex flex-col justify-center rounded-full overflow-hidden bg-gradient-to-r from-rose-500 to-purple-700 text-xs text-white text-center whitespace-nowrap transition duration-500" 
+        className="flex flex-col rounded justify-center overflow-hidden bg-gradient-to-r from-rose-500 to-purple-700 text-xs text-white text-center whitespace-nowrap transition duration-500" 
         style={progressValue}>  
       </div>
     </div>
