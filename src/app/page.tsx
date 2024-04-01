@@ -47,7 +47,7 @@ export default function Home() {
             All of the information that was requested as part of the application can be found in this
             site (and a whole lot more). Additionally, I took the initiative to write a small case
             study on the exploration and implementation of the text-shadow property. 
-            <Link className="text-purple-700 font-semibold" href="/case-studies/implementing-tailwindcss-text-shadow" target="_blank"> Check it out.</Link>
+            <Link className="text-purple-700 font-semibold" href="/case-studies/implementing-tailwindcss-text-shadow"> Check it out.</Link>
           </p>
           <p className="text-justify text-sm text-slate-500 leading-8">
             If you have any questions, feedback, or just want to chat about cool stuff &mdash; 
