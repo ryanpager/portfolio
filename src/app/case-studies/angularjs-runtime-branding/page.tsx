@@ -89,7 +89,7 @@ export default function CaseStudy() {
           <div className="flex-col text-sm text-center">
             <p className="font-semibold text-slate-600">AngularJS</p>
             <Link
-              className="hover:font-semibold hover:text-slate-400 transition-all"
+              className="text-xs text-slate-400 hover:font-semibold hover:text-purple-700 transition-all"
               href="https://angularjs.org/" 
               target="_blank">
               https://angularjs.org/
@@ -98,7 +98,7 @@ export default function CaseStudy() {
           <div className="flex-col text-sm text-center">
             <p className="font-semibold text-slate-600">ngMaterial</p>
             <Link
-              className="hover:font-semibold hover:text-slate-400 transition-all"
+              className="text-xs text-slate-400 hover:font-semibold hover:text-purple-700 transition-all"
               href="https://angularjs.org/" 
               target="_blank">
               https://material.angularjs.org/
@@ -107,7 +107,7 @@ export default function CaseStudy() {
           <div className="flex-col text-sm text-center">
             <p className="font-semibold text-slate-600">Ionic Framework</p>
             <Link
-              className="hover:font-semibold hover:text-slate-400 transition-all"
+              className="text-xs text-slate-400 hover:font-semibold hover:text-purple-700 transition-all"
               href="https://angularjs.org/" 
               target="_blank">
               http://ionicframework.com/

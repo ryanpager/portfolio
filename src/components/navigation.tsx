@@ -116,14 +116,14 @@ export default function Navigation() {
           </div>
           <div className="flex-auto">
             <a 
-              className="hover:text-slate-800 hover:font-semibold transition-all"
+              className="hover:text-purple-700 hover:font-semibold transition-all"
               href="https://github.com/ryanpager" 
               target="_blank"
             >
               <p>https://github.com/ryanpager</p>
             </a>
             <a
-              className="hover:text-slate-800 hover:font-semibold transition-all"
+              className="hover:text-purple-700 hover:font-semibold transition-all"
               href="https://github.com/otternaut-labs"
               target="_blank"
             >
@@ -134,7 +134,7 @@ export default function Navigation() {
         {/* Anchors & Links */}
         <div className="flex-col space-y-4 pt-4">
           <Link className={getNavigationClasses(URL.AboutMe)} href={URL.AboutMe}>
-            <p>About Me</p>
+            <p>Home</p>
           </Link>
           <Link className={getNavigationClasses(URL.Projects)} href={URL.Projects}>
             <p>Projects</p>

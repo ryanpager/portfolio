@@ -245,7 +245,7 @@ export default function Projects() {
             between moving to AWS (from DigitalOcean), managing NGINX configurations, cleaning out
             memory leaks in the codebase, and more. 
           </p>
-          <p className="text-justify text-sm text-slate-500 font-light leading-8">
+          <p className="text-justify text-sm text-slate-500 leading-8">
             Some of my responsibilities at BenchApp were,
           </p>
           <ol className="text-sm text-slate-500 text-justify list-decimal pl-8 space-y-4 leading-8">
@@ -277,7 +277,7 @@ export default function Projects() {
 
       {/* Section - End */}
       <div className="flex items-start max-w-3xl mx-auto space-x-16">
-        <p className="text-justify text-sm text-slate-500 font-light leading-8">
+        <p className="text-justify text-sm text-slate-500 leading-8">
           These are just some of the projects that I have been involved with; but there are
           many more that I have worked on in the past. While I stay on a project until the work
           is completed to (as close to) perfection as possible -- I am always looking for new challenges
