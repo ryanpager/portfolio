@@ -45,7 +45,7 @@ export default function RootLayout({
           </div>
         </div>
 
-        <div className="mx-auto w-full lg:max-w-screen-xl py-8 pt-12 px-8 lg:px-0 lg:py-24">
+        <div className="mx-auto w-full lg:max-w-screen-xl py-8 pt-16 px-8 lg:px-0 lg:py-24">
           <div className="flex lg:space-x-8 ">
             <div className="flex-none w-1/4 hidden lg:block">
               <Navigation />

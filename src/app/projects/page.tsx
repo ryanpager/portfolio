@@ -13,8 +13,8 @@ export default function Projects() {
     <div className="flex-col space-y-16">
       {/* Section Header */}
       <div className="flex-col text-center">
-        <h1 className="text-4xl text-slate-800 font-bold">Projects</h1>
-        <p className="mx-auto text-sm text-slate-500 max-w-prose text-center leading-6 lg:leading-8 mt-4">
+        <h1 className="text-2xl lg:text-4xl text-slate-800 font-bold">Projects</h1>
+        <p className="mx-auto text-sm text-slate-500 text-justify lg:max-w-prose lg:text-center leading-6 lg:leading-8 mt-4">
           Listed are all of the projects I have personally written, contributed to, advised on, or 
           have accomplished in the past few years. While the projects are all across the board in
           terms of technologies and scope; I am proud of the accomplished work. Some of these projects
@@ -36,9 +36,9 @@ export default function Projects() {
           priority
         />
         <div className="flex-auto space-y-4 -mt-2">
-          <h3 className="font-semibold text-2xl text-slate-600">Esprezzo</h3>
+          <h3 className="font-semibold lg:text-xl text-slate-600">Esprezzo</h3>
           <Link 
-            className="text-sm text-slate-400 transition-all hover:font-semibold hover:text-slate-800" 
+            className="text-xs lg:text-sm text-slate-400 transition-all hover:font-semibold hover:text-slate-800" 
             href="https://esprezzo.io/" 
             target="_blank">
             https://esprezzo.io/
@@ -97,9 +97,9 @@ export default function Projects() {
           priority
         />
         <div className="flex-auto space-y-4 -mt-2">
-          <h3 className="font-semibold text-2xl text-slate-600">QuiAri</h3>
+          <h3 className="font-semibold lg:text-xl text-slate-600">QuiAri</h3>
           <Link 
-            className="text-sm text-slate-400 transition-all hover:font-semibold hover:text-slate-800" 
+            className="text-xs lg:text-sm text-slate-400 transition-all hover:font-semibold hover:text-slate-800" 
             href="https://quiari.com/" 
             target="_blank">
             https://quiari.com/
@@ -168,9 +168,9 @@ export default function Projects() {
           priority
         />
         <div className="flex-auto space-y-4 -mt-2">
-          <h3 className="font-semibold text-2xl text-slate-600">VRIFY</h3>
+          <h3 className="font-semibold lg:text-xl text-slate-600">VRIFY</h3>
           <Link 
-            className="text-sm text-slate-400 transition-all hover:font-semibold hover:text-slate-800" 
+            className="text-xs lg:text-sm text-slate-400 transition-all hover:font-semibold hover:text-slate-800" 
             href="https://vrify.com/" 
             target="_blank">
             https://vrify.com/
@@ -227,9 +227,9 @@ export default function Projects() {
           priority
         />
         <div className="flex-auto space-y-4 -mt-2">
-          <h3 className="font-semibold text-2xl text-slate-600">BenchApp</h3>
+          <h3 className="font-semibold lg:text-xl text-slate-600">BenchApp</h3>
           <Link 
-            className="text-sm text-slate-400 transition-all hover:font-semibold hover:text-slate-800" 
+            className="text-xs lg:text-sm text-slate-400 transition-all hover:font-semibold hover:text-slate-800" 
             href="https://benchapp.com/" 
             target="_blank">
             https://benchapp.com/

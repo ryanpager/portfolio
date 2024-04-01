@@ -20,7 +20,7 @@ export default function Proficiencies() {
     <div className="flex-col space-y-16">
       {/* Section Header */}
       <div className="flex-col text-center">
-        <h1 className="text-4xl text-slate-800 font-bold">Skills & Proficiencies</h1>
+        <h1 className="text-2xl lg:text-4xl text-slate-800 font-bold">Skills & Proficiencies</h1>
         <p className="mx-auto text-sm text-slate-500 max-w-prose text-center leading-6 lg:leading-8 mt-4">
           At this point in my career, I&apos;ve come to learn that its impossible to solve all
           problems with just one language or tool &mdash; and because of this, I have acquired
