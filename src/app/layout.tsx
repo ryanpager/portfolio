@@ -24,12 +24,12 @@ export default function RootLayout({
       <body className={`${fontFamily.className} ${isMobileMenuOpen ? 'overflow-hidden' : ''} bg-white`}>
         {/* Mobile Navigation Trigger */}
         <div 
-          className="fixed top-0 left-0 z-10 w-full h-full px-1 py-2 lg:hidden bg-transparent"
+          className="fixed top-0 left-0 z-10 w-full h-full px-1 py-2 lg:hidden bg-transparent overflow-y-auto"
           onClick={(e) => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
           <button
             onClick={(e) => setIsMobileMenuOpen(!isMobileMenuOpen)} 
-            className="inline-block text-center w-7 h-7 rounded-full">
+            className="inline-block text-center w-7 h-7 rounded-full fixed top-2 left-1">
             {!isMobileMenuOpen && (
               <EllipsisVerticalIcon className="mx-auto flex-none text-slate-600 h-5 w-5" />
             )}
@@ -37,7 +37,7 @@ export default function RootLayout({
               <XMarkIcon className="mx-auto flex-none text-slate-600 h-5 w-5" />
             )}
           </button>
-          <div className={`-mt-6 pb-4 pl-10 transition-all duration-300 ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full opacity-0'}`}>
+          <div className={`-mt-6 pt-8 pb-8 pl-10 transition-all duration-300 ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full opacity-0'}`}>
             <Navigation />
           </div>
         </div>
