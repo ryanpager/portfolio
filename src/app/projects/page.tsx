@@ -52,7 +52,7 @@ export default function Projects() {
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">CircleCI</div>
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">AWS</div>
           </div>
-          <p className="text-justify text-sm text-slate-500 font-light leading-8">
+          <p className="text-justify text-sm text-slate-500 leading-8">
             Esprezzo is a service provider which integrates seamlessly with various blockchains and
             listens for triggered actions, events and other data. It supports real-time wallet and smart
             contract monitoring on multiple EVM networks with more coming soon. There is a two layered
@@ -60,7 +60,7 @@ export default function Projects() {
             of data in the pipeline. This pipeline can serve various dispatching integrations such as discord,
             slack, telegram, and more. More than 1MM+ events are fired monthly.
           </p>
-          <p className="text-justify text-sm text-slate-500 font-light leading-8">
+          <p className="text-justify text-sm text-slate-500 leading-8">
             Some of my responsibilities at Esprezzo include,
           </p>
           <ol className="text-sm text-slate-500 text-justify list-decimal pl-8 space-y-4 leading-8">
@@ -114,7 +114,7 @@ export default function Projects() {
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">RabbitMQ</div>
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">AWS</div>
           </div>
-          <p className="text-justify text-sm text-slate-500 font-light leading-8">
+          <p className="text-justify text-sm text-slate-500 leading-8">
             QuiAri is a direct-selling healthcare products company. While it may seem simple
             to create a simple e-commerce site; this project was so much more. Each order will
             provide various things including running volume in a binary tree, providing realtime
@@ -123,7 +123,7 @@ export default function Projects() {
             given day between 1,000 to 1,500 orders are placed throughout more than 200+ countries
             supported.
           </p>
-          <p className="text-justify text-sm text-slate-500 font-light leading-8">
+          <p className="text-justify text-sm text-slate-500 leading-8">
             The scaling challenges were an interesting hurdle as there are different requirements
             for different countries and different regulations that must be followed closely. Additionally,
             there are over 5 active payment gateway integrations, 10 3PL integrations, and numerous
@@ -131,7 +131,7 @@ export default function Projects() {
             to quickly scale through different regions on AWS while providing autoscaling layers to
             handle burst loads.
           </p>
-          <p className="text-justify text-sm text-slate-500 font-light leading-8">
+          <p className="text-justify text-sm text-slate-500 leading-8">
             Some of my responsibilities at Quiari include,
           </p>
           <ol className="text-sm text-slate-500 text-justify list-decimal pl-8 space-y-4 leading-8">
@@ -185,13 +185,13 @@ export default function Projects() {
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">ThreeJS</div>
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">AWS</div>
           </div>
-          <p className="text-justify text-sm text-slate-500 font-light leading-8">
+          <p className="text-justify text-sm text-slate-500 leading-8">
             VRIFY is a digital platform assisting mining operations all over the world. This is
             accomplished by projecting 3D models on the web, and allowing for live presentations
             of said models with features similar to zoom (just built in). Additionally, this provides
             ways to manage the resources contained in a mine and many other things.
           </p>
-          <p className="text-justify text-sm text-slate-500 font-light leading-8">
+          <p className="text-justify text-sm text-slate-500 leading-8">
             Some of my responsibilities at VRIFY were,
           </p>
           <ol className="text-sm text-slate-500 text-justify list-decimal pl-8 space-y-4 leading-8">
@@ -244,7 +244,7 @@ export default function Projects() {
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">Redis</div>
             <div className="flex-none rounded-md bg-purple-700 py-1 px-2">AWS</div>
           </div>
-          <p className="text-justify text-sm text-slate-500 font-light leading-8">
+          <p className="text-justify text-sm text-slate-500 leading-8">
             BenchApp is a sport team (specifically Hockey) management software that allows for
             captains or coordinators to set lineups, send out notifications, etc. I was brought
             in to optimize and scale the software -- which ended in a result 99% uptime as massively

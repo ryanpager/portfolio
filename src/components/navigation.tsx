@@ -76,7 +76,7 @@ export default function Navigation() {
       <Image
         src="/profile-picture.jpeg"
         alt="Ryan and Ollie on the beach"
-        className="rounded-lg"
+        className="rounded-lg shadow-lg shadow-slate-100"
         width={160}
         height={160}
         priority
