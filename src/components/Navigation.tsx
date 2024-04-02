@@ -44,6 +44,7 @@ export default function Navigation() {
       'pl-5',
       'cursor-pointer',
       'text-slate-500',
+      'text-sm',
       'border-l-2',
       'border-purple-700',
       // Hover State & Transitions
@@ -52,7 +53,7 @@ export default function Navigation() {
 
     if (path === pathname) {
       classList = classList.concat([
-        'text-rose-500',
+        'text-slate-800',
         'border-rose-500',
         'hover:border-l-8',
         'font-semibold',
@@ -81,75 +82,82 @@ export default function Navigation() {
       />
       {/* Name & Tag Line */}
       <div className="flex-col space-y-1 lg:mt-0">
-        <h1 className="font-semibold text-lg lg:text-2xl text-slate-700">Ryan Page</h1>
-        <p className="font-medium text-xs">Turning coffee into code, one day at a time.</p>
+        <h1 className="font-semibold text-lg lg:text-2xl text-slate-800">Ryan Page</h1>
+        <p className="font-medium text-sm text-slate-500">Turning coffee into code, one day at a time.</p>
       </div>
       {/* Contact Information */}
-      <div className="flex-col space-y-6 text-xs pt-4 lg:pt-0">
-        <div className="flex items-start space-x-2">
+      <div className="flex-col space-y-4 text-sm pt-4 lg:pt-0 text-slate-500">
+        <div className="flex items-start space-x-4">
           <div className="flex-none">
-            <MapPinIcon className="h-4 w-4 text-purple-700" />
+            <MapPinIcon className="h-5 w-5 text-purple-700" />
           </div>
           <div className="flex-auto">
             <p>Dallas-Fort Worth, Texas</p>
             <p className="mt-2">Mississauga, Ontario, Canada</p>
           </div>
         </div>
-        <div className="flex items-start space-x-2">
+        <div className="flex items-start space-x-4">
           <div className="flex-none">
-            <EnvelopeIcon className="h-4 w-4 text-purple-700" />
+            <EnvelopeIcon className="h-5 w-5 text-purple-700" />
           </div>
-          <div className="flex-auto">ryan@otternaut.com</div>
+          <div className="flex-auto">
+            <a 
+              className="hover:text-purple-700 hover:font-semibold transition-all"
+              href="mailto:ryan@otternaut.com" 
+            >
+              ryan@otternaut.com
+            </a>
+          </div>
         </div>
-        <div className="flex items-start space-x-2">
+        <div className="flex items-start space-x-4">
           <div className="flex-none">
             <Image
               src="/github-mark.svg"
               alt="Github"
               className="text-purple-700"
-              width={16}
-              height={16}
+              width={20}
+              height={20}
               priority
             />
           </div>
-          <div className="flex-auto">
+          <div className="grid grid-cols-1 gap-2">
             <a 
               className="hover:text-purple-700 hover:font-semibold transition-all"
               href="https://github.com/ryanpager" 
               target="_blank"
             >
-              <p>https://github.com/ryanpager</p>
+              https://github.com/ryanpager
             </a>
             <a
               className="hover:text-purple-700 hover:font-semibold transition-all"
               href="https://github.com/otternaut-labs"
               target="_blank"
             >
-              <p className="mt-2">https://github.com/otternaut-labs</p>
+              https://github.com/otternaut-labs
             </a>
           </div>
         </div>
         {/* Anchors & Links */}
         <div className="flex-col space-y-4 pt-4">
           <Link className={getNavigationClasses(URL.AboutMe)} href={URL.AboutMe}>
-            <p>Home</p>
+            Home
           </Link>
           <Link className={getNavigationClasses(URL.Projects)} href={URL.Projects}>
-            <p>Projects</p>
+            Projects
           </Link>
           <Link className={getNavigationClasses(URL.Principles)} href={URL.Principles}>
-            <p>Development Principles</p>
+            Development Principles
           </Link>
           <Link className={getNavigationClasses(URL.Proficiencies)} href={URL.Proficiencies}>
-            <p>Skills & Proficiencies</p>
+            Skills & Proficiencies
           </Link>
-          <p className="pl-6 font-semibold text-slate-300">Case Studies</p>
+          <p className="pl-6 text-slate-400">Case Studies</p>
           <div className="flex-col space-y-4">
             <Link className={getNavigationClasses(CaseStudyURL.TextShadow)} href={CaseStudyURL.TextShadow}>
-              <p>TailwindCSS Text Shadow</p>
+              TailwindCSS Text Shadow
             </Link>
             <Link className={getNavigationClasses(CaseStudyURL.RuntimeBranding)} href={CaseStudyURL.RuntimeBranding}>
-              <p>AngularJS Runtime Branding</p>
+              AngularJS Runtime Branding
             </Link>
           </div>
         </div>

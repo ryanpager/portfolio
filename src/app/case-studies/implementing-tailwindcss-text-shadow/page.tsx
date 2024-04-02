@@ -19,7 +19,7 @@ export default function CaseStudy() {
     <div className="flex-col space-y-8 lg:space-y-16">
       {/* Section Header */}
       <div className="flex-col text-center">
-        <h1 className="text-2xl lg:text-4xl text-slate-800 font-bold">
+        <h1 className="text-2xl lg:text-3xl text-slate-800 font-bold">
           Exploring Text Shadow Implentation in TailwindCSS
         </h1>
         <p className="mx-auto text-sm lg:text-lg font-semibold text-slate-500 max-w-prose text-center leading-6 lg:leading-8 mt-4">
