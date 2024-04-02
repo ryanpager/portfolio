@@ -13,8 +13,8 @@ export default function Projects() {
     <div className="flex-col space-y-16">
       {/* Section Header */}
       <div className="flex-col text-center">
-        <h1 className="text-2xl lg:text-4xl text-slate-800 font-bold">Projects</h1>
-        <p className="mx-auto text-sm text-slate-500 text-justify lg:max-w-prose lg:text-center leading-6 lg:leading-8 mt-4">
+        <h1 className="text-2xl lg:text-4xl text-slate-900 font-bold">Projects</h1>
+        <p className="mx-auto text-sm text-slate-600 text-justify lg:max-w-prose lg:text-center leading-6 lg:leading-8 mt-4">
           Listed are all of the projects I have personally written, contributed to, advised on, or 
           have accomplished in the past few years. While the projects are all across the board in
           terms of technologies and scope; I am proud of the accomplished work. Some of these projects
@@ -36,9 +36,9 @@ export default function Projects() {
           priority
         />
         <div className="flex-auto space-y-4 -mt-2">
-          <h3 className="font-semibold lg:text-xl text-slate-600">Esprezzo</h3>
+          <h3 className="font-semibold lg:text-xl text-slate-700">Esprezzo</h3>
           <Link 
-            className="text-xs lg:text-sm text-slate-500 transition-all hover:font-semibold hover:text-slate-800" 
+            className="text-xs lg:text-sm text-slate-600 transition-all hover:font-semibold hover:text-slate-900" 
             href="https://esprezzo.io/" 
             target="_blank">
             https://esprezzo.io/
@@ -52,7 +52,7 @@ export default function Projects() {
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">CircleCI</div>
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">AWS</div>
           </div>
-          <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
+          <p className="text-justify text-sm text-slate-600 leading-6 lg:leading-8">
             Esprezzo is a service provider which integrates seamlessly with various blockchains and
             listens for triggered actions, events and other data. It supports real-time wallet and smart
             contract monitoring on multiple EVM networks with more coming soon. There is a two layered
@@ -60,10 +60,10 @@ export default function Projects() {
             of data in the pipeline. This pipeline can serve various dispatching integrations such as discord,
             slack, telegram, and more. More than 1MM+ events are fired monthly.
           </p>
-          <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
+          <p className="text-justify text-sm text-slate-600 leading-6 lg:leading-8">
             Some of my responsibilities at Esprezzo include,
           </p>
-          <ol className="text-sm text-slate-500 text-justify list-decimal lg:pl-8 space-y-4 leading-6 lg:leading-8">
+          <ol className="text-sm text-slate-600 text-justify list-decimal lg:pl-8 space-y-4 leading-6 lg:leading-8">
             <li>
               Implement a dynamic queue system which handles millions of messages in real-time. The
               queue system will process these messages based on certain criteria provided by the end
@@ -97,9 +97,9 @@ export default function Projects() {
           priority
         />
         <div className="flex-auto space-y-4 -mt-2">
-          <h3 className="font-semibold lg:text-xl text-slate-600">QuiAri</h3>
+          <h3 className="font-semibold lg:text-xl text-slate-700">QuiAri</h3>
           <Link 
-            className="text-xs lg:text-sm text-slate-500 transition-all hover:font-semibold hover:text-slate-800" 
+            className="text-xs lg:text-sm text-slate-600 transition-all hover:font-semibold hover:text-slate-900" 
             href="https://quiari.com/" 
             target="_blank">
             https://quiari.com/
@@ -113,7 +113,7 @@ export default function Projects() {
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">RabbitMQ</div>
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">AWS</div>
           </div>
-          <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
+          <p className="text-justify text-sm text-slate-600 leading-6 lg:leading-8">
             QuiAri is a direct-selling healthcare products company. While it may seem simple
             to create a simple e-commerce site; this project was so much more. Each order will
             provide various things including running volume in a binary tree, providing realtime
@@ -122,7 +122,7 @@ export default function Projects() {
             given day between 1,000 to 1,500 orders are placed throughout more than 200+ countries
             supported.
           </p>
-          <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
+          <p className="text-justify text-sm text-slate-600 leading-6 lg:leading-8">
             The scaling challenges were an interesting hurdle as there are different requirements
             for different countries and different regulations that must be followed closely. Additionally,
             there are over 5 active payment gateway integrations, 10 3PL integrations, and numerous
@@ -130,10 +130,10 @@ export default function Projects() {
             to quickly scale through different regions on AWS while providing autoscaling layers to
             handle burst loads.
           </p>
-          <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
+          <p className="text-justify text-sm text-slate-600 leading-6 lg:leading-8">
             Some of my responsibilities at Quiari include,
           </p>
-          <ol className="text-sm text-slate-500 text-justify list-decimal lg:pl-8 space-y-4 leading-6 lg:leading-8">
+          <ol className="text-sm text-slate-600 text-justify list-decimal lg:pl-8 space-y-4 leading-6 lg:leading-8">
             <li>
               Implement a dynamic queue system which handles millions of orders in real-time. The
               queue system will process these messages and route them to the correct 3PL (shipping & handling)
@@ -168,9 +168,9 @@ export default function Projects() {
           priority
         />
         <div className="flex-auto space-y-4 -mt-2">
-          <h3 className="font-semibold lg:text-xl text-slate-600">VRIFY</h3>
+          <h3 className="font-semibold lg:text-xl text-slate-700">VRIFY</h3>
           <Link 
-            className="text-xs lg:text-sm text-slate-500 transition-all hover:font-semibold hover:text-slate-800" 
+            className="text-xs lg:text-sm text-slate-600 transition-all hover:font-semibold hover:text-slate-900" 
             href="https://vrify.com/" 
             target="_blank">
             https://vrify.com/
@@ -184,16 +184,16 @@ export default function Projects() {
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">ThreeJS</div>
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">AWS</div>
           </div>
-          <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
+          <p className="text-justify text-sm text-slate-600 leading-6 lg:leading-8">
             VRIFY is a digital platform assisting mining operations all over the world. This is
             accomplished by projecting 3D models on the web, and allowing for live presentations
             of said models with features similar to zoom (just built in). Additionally, this provides
             ways to manage the resources contained in a mine and many other things.
           </p>
-          <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
+          <p className="text-justify text-sm text-slate-600 leading-6 lg:leading-8">
             Some of my responsibilities at VRIFY were,
           </p>
-          <ol className="text-sm text-slate-500 text-justify list-decimal lg:pl-8 space-y-4 leading-6 lg:leading-8">
+          <ol className="text-sm text-slate-600 text-justify list-decimal lg:pl-8 space-y-4 leading-6 lg:leading-8">
             <li>
               Create a websocket engine through Elixir that will serve the live meetings platform. This
               microservice must be scalable and interact with the Django Rest API, and be bullet-proof
@@ -227,9 +227,9 @@ export default function Projects() {
           priority
         />
         <div className="flex-auto space-y-4 -mt-2">
-          <h3 className="font-semibold lg:text-xl text-slate-600">BenchApp</h3>
+          <h3 className="font-semibold lg:text-xl text-slate-700">BenchApp</h3>
           <Link 
-            className="text-xs lg:text-sm text-slate-500 transition-all hover:font-semibold hover:text-slate-800" 
+            className="text-xs lg:text-sm text-slate-600 transition-all hover:font-semibold hover:text-slate-900" 
             href="https://benchapp.com/" 
             target="_blank">
             https://benchapp.com/
@@ -243,7 +243,7 @@ export default function Projects() {
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">Redis</div>
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">AWS</div>
           </div>
-          <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
+          <p className="text-justify text-sm text-slate-600 leading-6 lg:leading-8">
             BenchApp is a sport team (with over 10+ different sports) management software that allows for
             captains or coordinators to set lineups, send out notifications, etc. I was brought
             in to optimize and scale the software -- which ended in a result 99% uptime as massively
@@ -251,10 +251,10 @@ export default function Projects() {
             between moving to AWS (from DigitalOcean), managing NGINX configurations, cleaning out
             memory leaks in the codebase, and more. 
           </p>
-          <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
+          <p className="text-justify text-sm text-slate-600 leading-6 lg:leading-8">
             Some of my responsibilities at BenchApp were,
           </p>
-          <ol className="text-sm text-slate-500 text-justify list-decimal lg:pl-8 space-y-4 leading-6 lg:leading-8">
+          <ol className="text-sm text-slate-600 text-justify list-decimal lg:pl-8 space-y-4 leading-6 lg:leading-8">
             <li>
               Implement and design a migration from DigitalOcean to AWS to provide a more
               stable platform with better performance and better developer experience. Containers
@@ -283,7 +283,7 @@ export default function Projects() {
 
       {/* Section - End */}
       <div className="flex items-start mx-auto space-x-16">
-        <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
+        <p className="text-justify text-sm text-slate-600 leading-6 lg:leading-8">
           These are just some of the projects that I have been involved with; but there are
           many more that I have worked on in the past. While I stay on a project until the work
           is completed to (as close to) perfection as possible -- I am always looking for new challenges

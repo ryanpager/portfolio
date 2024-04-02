@@ -46,10 +46,10 @@ export default function RootLayout({
             onClick={(e) => toggleMobileMenu(e as any)} 
             className="z-10 inline-block text-center w-7 h-7 rounded-full fixed top-2 right-2">
             {!isMobileMenuOpen && (
-              <Bars2Icon className="mx-auto flex-none text-slate-800 h-7 w-7" />
+              <Bars2Icon className="mx-auto flex-none text-slate-900 h-7 w-7" />
             )}
             {isMobileMenuOpen && (
-              <XMarkIcon className="mx-auto flex-none text-slate-800 h-7 w-7" />
+              <XMarkIcon className="mx-auto flex-none text-slate-900 h-7 w-7" />
             )}
           </button>
           <div className={`-mt-7 pt-8 pl-2 transition-all duration-200 ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full opacity-0'}`}>
