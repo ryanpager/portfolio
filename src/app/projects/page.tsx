@@ -23,7 +23,7 @@ export default function Projects() {
       </div>
 
       {/* Divider */}
-      <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
+      <div className="mt-16 mb-8 bg-gradient-to-r from-purple-800 to-purple-600 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Project - Esprezzo */}
       <div className="flex flex-wrap flex flex-wrap lg:flex-nowrap items-start mx-auto text-center lg:space-x-8 lg:text-left">
@@ -38,19 +38,19 @@ export default function Projects() {
         <div className="flex-auto space-y-4 -mt-2">
           <h3 className="font-semibold lg:text-xl text-slate-600">Esprezzo</h3>
           <Link 
-            className="text-xs lg:text-sm text-slate-400 transition-all hover:font-semibold hover:text-slate-800" 
+            className="text-xs lg:text-sm text-slate-500 transition-all hover:font-semibold hover:text-slate-800" 
             href="https://esprezzo.io/" 
             target="_blank">
             https://esprezzo.io/
           </Link>
-          <div className="flex flex-wrap gap-2 pt-4 text-xs text-white font-medium tracking-wider">
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">Elixir</div>
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">Rust</div>
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">RabbitMQ</div>
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">PostgreSQL</div>
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">Redis</div>
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">CircleCI</div>
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">AWS</div>
+          <div className="flex flex-wrap gap-2 text-xs text-white tracking-wider">
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">Elixir</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">Rust</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">RabbitMQ</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">PostgreSQL</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">Redis</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">CircleCI</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">AWS</div>
           </div>
           <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
             Esprezzo is a service provider which integrates seamlessly with various blockchains and
@@ -84,7 +84,7 @@ export default function Projects() {
       </div>
 
       {/* Divider */}
-      <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
+      <div className="mt-16 mb-8 bg-gradient-to-r from-purple-800 to-purple-600 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Project - QuiAri */}
       <div className="flex flex-wrap lg:flex-nowrap items-start mx-auto text-center lg:space-x-8 lg:text-left">
@@ -99,19 +99,19 @@ export default function Projects() {
         <div className="flex-auto space-y-4 -mt-2">
           <h3 className="font-semibold lg:text-xl text-slate-600">QuiAri</h3>
           <Link 
-            className="text-xs lg:text-sm text-slate-400 transition-all hover:font-semibold hover:text-slate-800" 
+            className="text-xs lg:text-sm text-slate-500 transition-all hover:font-semibold hover:text-slate-800" 
             href="https://quiari.com/" 
             target="_blank">
             https://quiari.com/
           </Link>
-          <div className="flex flex-wrap gap-2 pt-4 text-xs text-white font-medium tracking-wider">
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">Elixir</div>
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">Typescript</div>
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">React</div>
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">Tailwind</div>
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">PostgreSQL</div>
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">RabbitMQ</div>
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">AWS</div>
+          <div className="flex flex-wrap gap-2 text-xs text-white tracking-wider">
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">Elixir</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">Typescript</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">React</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">TailwindCSS</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">PostgreSQL</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">RabbitMQ</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">AWS</div>
           </div>
           <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
             QuiAri is a direct-selling healthcare products company. While it may seem simple
@@ -155,7 +155,7 @@ export default function Projects() {
       </div>
 
       {/* Divider */}
-      <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
+      <div className="mt-16 mb-8 bg-gradient-to-r from-purple-800 to-purple-600 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Project - VRIFY */}
       <div className="flex flex-wrap lg:flex-nowrap items-start mx-auto text-center lg:space-x-8 lg:text-left">
@@ -170,19 +170,19 @@ export default function Projects() {
         <div className="flex-auto space-y-4 -mt-2">
           <h3 className="font-semibold lg:text-xl text-slate-600">VRIFY</h3>
           <Link 
-            className="text-xs lg:text-sm text-slate-400 transition-all hover:font-semibold hover:text-slate-800" 
+            className="text-xs lg:text-sm text-slate-500 transition-all hover:font-semibold hover:text-slate-800" 
             href="https://vrify.com/" 
             target="_blank">
             https://vrify.com/
           </Link>
-          <div className="flex flex-wrap gap-2 pt-4 text-xs text-white font-medium tracking-wider">
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">Elixir</div>
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">Python</div>
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">VueJS</div>
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">TailwindCSS</div>
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">WebGL</div>
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">ThreeJS</div>
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">AWS</div>
+          <div className="flex flex-wrap gap-2 text-xs text-white tracking-wider">
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">Elixir</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">Python</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">VueJS</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">TailwindCSS</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">WebGL</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">ThreeJS</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">AWS</div>
           </div>
           <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
             VRIFY is a digital platform assisting mining operations all over the world. This is
@@ -214,7 +214,7 @@ export default function Projects() {
       </div>
 
       {/* Divider */}
-      <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
+      <div className="mt-16 mb-8 bg-gradient-to-r from-purple-800 to-purple-600 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Project - BenchApp */}
       <div className="flex flex-wrap lg:flex-nowrap items-start mx-auto text-center lg:space-x-8 lg:text-left">
@@ -229,19 +229,19 @@ export default function Projects() {
         <div className="flex-auto space-y-4 -mt-2">
           <h3 className="font-semibold lg:text-xl text-slate-600">BenchApp</h3>
           <Link 
-            className="text-xs lg:text-sm text-slate-400 transition-all hover:font-semibold hover:text-slate-800" 
+            className="text-xs lg:text-sm text-slate-500 transition-all hover:font-semibold hover:text-slate-800" 
             href="https://benchapp.com/" 
             target="_blank">
             https://benchapp.com/
           </Link>
-          <div className="flex flex-wrap gap-2 pt-4 text-xs text-white font-medium tracking-wider">
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">Typescript</div>
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">MySQL</div>
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">PHP</div>
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">React</div>
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">TailwindCSS</div>
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">Redis</div>
-            <div className="flex-none rounded-md bg-purple-700 py-1 px-2">AWS</div>
+          <div className="flex flex-wrap gap-2 text-xs text-white tracking-wider">
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">Typescript</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">MySQL</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">PHP</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">React</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">TailwindCSS</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">Redis</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">AWS</div>
           </div>
           <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
             BenchApp is a sport team (with over 10+ different sports) management software that allows for
@@ -279,7 +279,7 @@ export default function Projects() {
       </div>
 
       {/* Divider */}
-      <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
+      <div className="mt-16 mb-8 bg-gradient-to-r from-purple-800 to-purple-600 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Section - End */}
       <div className="flex items-start mx-auto space-x-16">

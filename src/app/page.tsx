@@ -21,7 +21,7 @@ export default function Home() {
       </div>
 
       {/* Divider */}
-      <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
+      <div className="mt-16 mb-8 bg-gradient-to-r from-purple-800 to-purple-600 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Tailwind Callout */}
       <div className="rounded-lg border border-slate-200 p-6 lg:p-8 shadow-lg shadow-slate-100 flex items-start lg:space-x-8">
@@ -61,7 +61,7 @@ export default function Home() {
       </div>
 
       {/* Divider */}
-      <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
+      <div className="mt-16 mb-8 bg-gradient-to-r from-purple-800 to-purple-600 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Section - About Me */}
       <div className="flex-col mx-auto space-y-4">
@@ -108,7 +108,7 @@ export default function Home() {
       </div>
 
       {/* Divider */}
-      <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
+      <div className="mt-16 mb-8 bg-gradient-to-r from-purple-800 to-purple-600 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Section - About Otternaut */}
       <div className="flex-col mx-auto space-y-4">

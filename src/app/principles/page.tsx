@@ -20,7 +20,7 @@ export default function Principles() {
       </div>
 
       {/* Divider */}
-      <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
+      <div className="mt-16 mb-8 bg-gradient-to-r from-purple-800 to-purple-600 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Section - Quality Obsessed */}
       <div className="flex flex-wrap lg:flex-nowrap items-start lg:space-x-24 mx-auto">
@@ -32,7 +32,7 @@ export default function Principles() {
           height={256}
           priority
         />
-        <div className="flex-auto space-y-4 lg:space-y-8 -mt-2">
+        <div className="flex-auto space-y-4 lg:space-y-4 -mt-2">
           <h3 className="lg:text-xl text-slate-600 font-bold text-center lg:text-right">Obsessed with Quality to a Fault</h3>
           <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
             In the realm of software architecture, mediocrity is not an option. Embracing
@@ -52,11 +52,11 @@ export default function Principles() {
       </div>
 
       {/* Divider */}
-      <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
+      <div className="mt-16 mb-8 bg-gradient-to-r from-purple-800 to-purple-600 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Section - Never Give Up */}
       <div className="flex flex-wrap-reverse lg:flex-nowrap items-start lg:space-x-24 mx-auto">
-        <div className="flex-auto space-y-4 lg:space-y-8 -mt-2">
+        <div className="flex-auto space-y-4 lg:space-y-4 -mt-2">
           <h3 className="lg:text-xl text-slate-600 font-bold text-center lg:text-left">Never Give Up, Never Surrender</h3>
           <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
             In the world of software development, challenges abound and obstacles loom large—
@@ -84,7 +84,7 @@ export default function Principles() {
       </div>
 
       {/* Divider */}
-      <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
+      <div className="mt-16 mb-8 bg-gradient-to-r from-purple-800 to-purple-600 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Section - Teaching & Learning */}
       <div className="flex flex-wrap lg:flex-nowrap items-start lg:space-x-24 mx-auto">
@@ -96,7 +96,7 @@ export default function Principles() {
           height={256}
           priority
         />
-        <div className="flex-auto space-y-4 lg:space-y-8 -mt-2">
+        <div className="flex-auto space-y-4 lg:space-y-4 -mt-2">
           <h3 className="lg:text-xl text-slate-600 font-bold text-center lg:text-right">Knowledge is Power</h3>
           <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
             Every project presents a unique puzzle to solve, a chance to expand your knowledge horizons. 
@@ -119,7 +119,7 @@ export default function Principles() {
 
       {/* Section - Teamwork */}
       <div className="flex flex-wrap-reverse lg:flex-nowrap items-start lg:space-x-24 mx-auto">
-        <div className="flex-auto space-y-4 lg:space-y-8 -mt-2">
+        <div className="flex-auto space-y-4 lg:space-y-4 -mt-2">
           <h3 className="lg:text-xl text-slate-600 font-bold text-center lg:text-left">Teamwork Makes the Dream Work</h3>
           <p className="text-justify text-sm text-slate-500 leading-6 lg:leading-8">
             In a collaborative environment, ideas flow freely, sparking innovation at every turn. 

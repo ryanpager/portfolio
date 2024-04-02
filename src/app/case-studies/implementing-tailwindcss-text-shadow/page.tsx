@@ -28,10 +28,10 @@ export default function CaseStudy() {
       </div>
 
       {/* Divider */}
-      <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
+      <div className="mt-16 mb-8 bg-gradient-to-r from-purple-800 to-purple-600 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Section - Foreword */}
-      <div className="text-center space-y-4 lg:space-y-8 mx-auto">
+      <div className="text-center space-y-4 mx-auto">
         <h2 className="lg:text-xl text-slate-600 font-bold text-center">Foreword</h2>
         <p className="text-sm text-slate-500 text-justify leading-6 lg:leading-8">
           What seem's to be one of the most requested features in TailwindCSS, but also one of
@@ -50,10 +50,10 @@ export default function CaseStudy() {
       </div>
 
       {/* Divider */}
-      <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
+      <div className="mt-16 mb-8 bg-gradient-to-r from-purple-800 to-purple-600 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Section - Problems */}
-      <div className="text-center space-y-4 lg:space-y-8 mx-auto">
+      <div className="text-center space-y-4 mx-auto">
         <h2 className="lg:text-xl text-slate-600 font-bold text-center">The Root Problem & Considerations</h2>
         <p className="text-sm text-slate-500 text-justify leading-6 lg:leading-8">
           The css property text-shaddow is inherently more difficult to implemenant 
@@ -75,10 +75,10 @@ export default function CaseStudy() {
       </div>
 
       {/* Divider */}
-      <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
+      <div className="mt-16 mb-8 bg-gradient-to-r from-purple-800 to-purple-600 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Section - Solution 1 - Bloat */}
-      <div className="text-center space-y-4 lg:space-y-8 mx-auto">
+      <div className="text-center space-y-4 mx-auto">
         <h2 className="lg:text-xl text-slate-600 font-bold text-center">Solution 1: Bloat CSS and Cry</h2>
         <p className="text-sm text-slate-500 text-justify leading-6 lg:leading-8">
           Solution one is <b>absolutely not acceptable.</b> It will <b>not</b> perform well, compile times
@@ -95,10 +95,10 @@ export default function CaseStudy() {
       </div>
 
       {/* Divider */}
-      <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
+      <div className="mt-16 mb-8 bg-gradient-to-r from-purple-800 to-purple-600 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Section - Solution 2 - JIT */}
-      <div className="text-center space-y-4 lg:space-y-8 mx-auto">
+      <div className="text-center space-y-4 mx-auto">
         <h2 className="lg:text-xl text-slate-600 font-bold text-center">Solution 2: JIT to the Rescue</h2>
         <p className="text-sm text-slate-500 text-justify leading-6 lg:leading-8">
           Using a preprocessor for Just-In-Time compiling (JIT) seems to be an extremely efficient solution
@@ -111,7 +111,7 @@ export default function CaseStudy() {
       </div>
 
       {/* Divider */}
-      <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
+      <div className="mt-16 mb-8 bg-gradient-to-r from-purple-800 to-purple-600 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Possible Implementation */}
       <div className="text-center space-y-8 mx-auto">
@@ -120,10 +120,10 @@ export default function CaseStudy() {
       </div>
 
       {/* Divider */}
-      <div className="mt-16 mb-8 bg-purple-500 w-20 h-1 rounded-lg mx-auto" />
+      <div className="mt-16 mb-8 bg-gradient-to-r from-purple-800 to-purple-600 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Section - Solution 2 - JIT */}
-      <div className="text-center space-y-4 lg:space-y-8 mx-auto">
+      <div className="text-center space-y-4 mx-auto">
         <h2 className="lg:text-xl text-slate-600 font-bold text-center">Final Thoughts</h2>
         <p className="text-sm text-slate-500 text-justify leading-6 lg:leading-8">
           The purpose of this case study was to determine whether or not it is possible
