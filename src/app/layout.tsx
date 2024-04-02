@@ -27,9 +27,6 @@ export default function RootLayout({
    */
   function toggleMobileMenu(e: any): void {
     e.preventDefault();
-
-    console.log(e.target.tagName.toLowerCase())
-
     if (!["a", "svg", "path", "button"].includes(e.target.tagName.toLowerCase())) {
       return
     }
@@ -60,8 +57,8 @@ export default function RootLayout({
           </div>
         </div>
 
-        <div className={`mx-auto w-full lg:max-w-screen-xl py-8 pt-16 px-8 lg:px-0 lg:py-24 transition-all duration-300 ${isMobileMenuOpen ? 'blur-lg opacity-10' : 'delay-100'}`}>
-          <div className="flex lg:space-x-16 ">
+        <div className={`mx-auto w-full lg:max-w-screen-xl py-8 pt-16 px-6 lg:px-0 lg:py-24 transition-all duration-300 ${isMobileMenuOpen ? 'blur-lg opacity-10' : 'delay-100'}`}>
+          <div className="flex lg:space-x-24">
             <div className="flex-none w-1/4 hidden lg:block">
               <Navigation />
             </div>

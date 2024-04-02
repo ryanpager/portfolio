@@ -102,7 +102,7 @@ export default function Navigation() {
           </div>
           <div className="flex-auto">
             <a 
-              className="hover:text-purple-700 hover:font-semibold transition-all"
+              className="hover:text-slate-800 hover:font-semibold transition-all"
               href="mailto:ryan@otternaut.com" 
             >
               ryan@otternaut.com
@@ -122,14 +122,14 @@ export default function Navigation() {
           </div>
           <div className="grid grid-cols-1 gap-2">
             <a 
-              className="hover:text-purple-700 hover:font-semibold transition-all"
+              className="hover:text-slate-800 hover:font-semibold transition-all"
               href="https://github.com/ryanpager" 
               target="_blank"
             >
               https://github.com/ryanpager
             </a>
             <a
-              className="hover:text-purple-700 hover:font-semibold transition-all"
+              className="hover:text-slate-800 hover:font-semibold transition-all"
               href="https://github.com/otternaut-labs"
               target="_blank"
             >
