@@ -44,7 +44,8 @@ export default function Navigation() {
       'pl-8',
       'cursor-pointer',
       'text-slate-500',
-      'text-sm',
+      'text-xs',
+      'lg:text-sm',
       'border-l-2',
       'border-purple-700',
       // Hover State & Transitions
@@ -73,7 +74,7 @@ export default function Navigation() {
   }
 
   return (
-    <div className="flex flex-col space-y-4 lg:space-y-8 text-slate-500 lg:fixed lg:top-24">
+    <div className="flex flex-col space-y-2 lg:space-y-8 text-slate-500 lg:fixed lg:top-24">
       {/* Profile Image */}
       <img
         src="/profile-picture.jpeg"
@@ -83,10 +84,10 @@ export default function Navigation() {
       {/* Name & Tag Line */}
       <div className="flex-col space-y-1 lg:mt-0">
         <h1 className="font-semibold text-lg lg:text-2xl text-slate-800">Ryan Page</h1>
-        <p className="font-medium text-sm text-slate-500">Turning coffee into code, one day at a time.</p>
+        <p className="font-medium text-xs lg:text-sm text-slate-500">Turning coffee into code, one day at a time.</p>
       </div>
       {/* Contact Information */}
-      <div className="flex-col space-y-4 text-sm pt-4 lg:pt-0 text-slate-500">
+      <div className="flex-col space-y-4 text-xs lg:text-sm pt-4 lg:pt-0 text-slate-500">
         <div className="flex items-start space-x-4">
           <div className="flex-none">
             <MapPinIcon className="h-5 w-5 text-purple-700" />
