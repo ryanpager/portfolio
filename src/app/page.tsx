@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { StarIcon } from '@heroicons/react/24/solid';
+import Image from "next/image";
 
 // Metadata
 export const metadata: Metadata = {
@@ -9,30 +9,26 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  const date = new Date();
-  const options: any = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-  const formattedDate = new Intl.DateTimeFormat('en-US', options).format(date);
-
   return (
     <div className="flex-col space-y-16">
+      <img
+        src="/illustrations/otternaut-hello.svg"
+        alt="Blast off with Otternaut."
+        className="mx-auto w-3/4 lg:w-1/2"
+      />
+
       {/* Section Header */}
       <div className="flex-col text-center">
-        <h1 className="text-4xl text-slate-900 font-bold">Hi, I'm Ryan.</h1>
+        <h1 className="text-2xl lg:text-4xl text-slate-900 font-bold">Hi, I'm Ryan.</h1>
       </div>
 
       {/* Divider */}
       <div className="mt-16 mb-8 bg-gradient-to-r from-purple-800 to-purple-600 w-20 h-1 rounded-lg mx-auto" />
 
       {/* Tailwind Callout */}
-      <div className="rounded-lg border border-slate-200 p-6 lg:p-8 shadow-lg shadow-slate-100 flex items-start lg:space-x-8">
-        <div className="text-4xl flex-none hidden lg:block">👋</div>
+      <div className="flex-col mx-auto space-y-4">
         <div className="flex-auto flex-col mx-auto space-y-4">
-          <div className="flex items-center">
-            <h5 className="flex-auto text-sm lg:text-lg text-slate-700 font-bold">Adam, Robin, and the Tailwind crew,</h5>
-            <p className="flex-none text-right text-sm text-slate-500 font-bold hidden lg:block">
-              {formattedDate}
-            </p>
-          </div>
+          <h2 className="lg:text-xl text-slate-700 font-bold text-center">Adam, Robin, and the Tailwind crew,</h2>
           <p className="text-justify text-sm text-slate-600 leading-6 lg:leading-8">
             If you're reading this, I appreciate the consideration for both positions currently
             open &mdash; Design Engineer & Staff Engineer. I applied to both positions as I feel

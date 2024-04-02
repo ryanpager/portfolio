@@ -18,6 +18,12 @@ type Proficiency = {
 export default function Proficiencies() {
   return (
     <div className="flex-col space-y-16">
+      <img
+        src="/illustrations/blast-off.svg"
+        alt="Blast off with Otternaut."
+        className="mx-auto w-3/4 lg:w-1/2"
+      />
+
       {/* Section Header */}
       <div className="flex-col text-center">
         <h1 className="text-2xl lg:text-4xl text-slate-900 font-bold">Skills & Proficiencies</h1>

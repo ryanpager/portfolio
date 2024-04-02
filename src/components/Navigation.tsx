@@ -41,7 +41,7 @@ export default function Navigation() {
       'flex',
       'space-x-2',
       'py-1',
-      'pl-5',
+      'pl-8',
       'cursor-pointer',
       'text-slate-500',
       'text-sm',
@@ -61,7 +61,7 @@ export default function Navigation() {
       ])
     } else {
       classList = classList.concat([
-        'hover:pl-5',
+        'hover:pl-8',
         'hover:text-slate-800',
         'hover:border-l-8',
         'hover:border-rose-500',
@@ -151,7 +151,7 @@ export default function Navigation() {
           <Link className={getNavigationClasses(URL.Proficiencies)} href={URL.Proficiencies}>
             Skills & Proficiencies
           </Link>
-          <p className="pl-6 text-slate-400">Case Studies</p>
+          <p className="pl-9 text-slate-400">Case Studies</p>
           <div className="flex-col space-y-4">
             <Link className={getNavigationClasses(CaseStudyURL.TextShadow)} href={CaseStudyURL.TextShadow}>
               TailwindCSS Text Shadow

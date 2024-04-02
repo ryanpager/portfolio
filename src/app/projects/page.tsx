@@ -11,6 +11,12 @@ export const metadata: Metadata = {
 export default function Projects() {
   return (
     <div className="flex-col space-y-16">
+      <img
+        src="/illustrations/project-planning.svg"
+        alt="See our projects for inspiration on how we can help."
+        className="mx-auto w-1/2 lg:w-1/3"
+      />
+
       {/* Section Header */}
       <div className="flex-col text-center">
         <h1 className="text-2xl lg:text-4xl text-slate-900 font-bold">Projects</h1>
@@ -48,9 +54,9 @@ export default function Projects() {
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">Rust</div>
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">RabbitMQ</div>
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">PostgreSQL</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">AWS</div>
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">Redis</div>
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">CircleCI</div>
-            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">AWS</div>
           </div>
           <p className="text-justify text-sm text-slate-600 leading-6 lg:leading-8">
             Esprezzo is a service provider which integrates seamlessly with various blockchains and
@@ -108,10 +114,10 @@ export default function Projects() {
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">Elixir</div>
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">Typescript</div>
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">React</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">AWS</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">RabbitMQ</div>
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">TailwindCSS</div>
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">PostgreSQL</div>
-            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">RabbitMQ</div>
-            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">AWS</div>
           </div>
           <p className="text-justify text-sm text-slate-600 leading-6 lg:leading-8">
             QuiAri is a direct-selling healthcare products company. While it may seem simple
@@ -180,9 +186,9 @@ export default function Projects() {
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">Python</div>
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">VueJS</div>
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">TailwindCSS</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">AWS</div>
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">WebGL</div>
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">ThreeJS</div>
-            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">AWS</div>
           </div>
           <p className="text-justify text-sm text-slate-600 leading-6 lg:leading-8">
             VRIFY is a digital platform assisting mining operations all over the world. This is
@@ -235,13 +241,13 @@ export default function Projects() {
             https://benchapp.com/
           </Link>
           <div className="flex flex-wrap gap-2 text-xs text-white tracking-wider">
-            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">Typescript</div>
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">MySQL</div>
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">PHP</div>
-            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">React</div>
-            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">TailwindCSS</div>
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">Redis</div>
             <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">AWS</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">Typescript</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">React</div>
+            <div className="flex-none rounded bg-gradient-to-r from-purple-800 to-purple-600 py-1 px-2">TailwindCSS</div>
           </div>
           <p className="text-justify text-sm text-slate-600 leading-6 lg:leading-8">
             BenchApp is a sport team (with over 10+ different sports) management software that allows for

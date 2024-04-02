@@ -10,6 +10,12 @@ export const metadata: Metadata = {
 export default function Principles() {
   return (
     <div className="flex-col space-y-16">
+      <img
+        src="/illustrations/our-development-style.svg"
+        alt="Our philosophy for Otternaut is quality at the highest standard."
+        className="mx-auto w-5/12 lg:w-1/4"
+      />
+
       {/* Section Header */}
       <div className="flex-col text-center">
         <h1 className="text-2xl lg:text-4xl text-slate-900 font-bold">Development Principles</h1>
